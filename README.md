@@ -1,7 +1,7 @@
 # gotips Go语言编程技巧
 Go tips from [Phuong Le](https://twitter.com/func25). 
 
-中文版
+当前翻译后的站点: [Go语言编程技巧](https://colobu.com/gotips/)
 
 ## 翻译规范
 
