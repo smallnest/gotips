@@ -18,8 +18,8 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | tip序号 | 标题 | 译者 | 状态 |
 | --- | --- | --- | --- |
 | 1 | Measure the execution time of a function in just one line of code. | smallnest| 已完成 |
-| 2 | Multistage defer | smallnest | 已认领 |
-| 3 |  | |  |
+| 2 | Multistage defer | smallnest | 已完成 |
+| 3 | Pre-allocate slices for performance | smallnest | 已认领 |
 | 4 |  | |  |
 | 5 |  | |  |
 | 6 |  | |  |
