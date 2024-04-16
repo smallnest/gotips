@@ -19,8 +19,8 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | --- | --- | --- | --- |
 | 1 | Measure the execution time of a function in just one line of code. | smallnest| 已完成 |
 | 2 | Multistage defer | smallnest | 已完成 |
-| 3 | Pre-allocate slices for performance | smallnest | 已认领 |
-| 4 |  | |  |
+| 3 | Pre-allocate slices for performance | smallnest | 已完成 |
+| 4 | Parse an Array into a Slice | smallnest | 已认领 |
 | 5 |  | |  |
 | 6 |  | |  |
 | 7 |  | |  |
