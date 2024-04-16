@@ -1,4 +1,4 @@
-# gotips
+# gotips Go语言编程技巧
 Go tips from [Phuong Le](https://twitter.com/func25). 
 
 中文版

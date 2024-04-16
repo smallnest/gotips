@@ -3,7 +3,7 @@ authors = ["smallnest"]
 language = "zh-CN"
 multilingual = false
 src = "src"
-title = "Go语言技巧"
+title = "Go语言编程技巧"
 
 [output.html]
 
