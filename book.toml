@@ -1,0 +1,15 @@
+[book]
+authors = ["smallnest"]
+language = "zh-CN"
+multilingual = false
+src = "src"
+title = "Go语言技巧"
+
+[output.html]
+
+[output.html.print]
+enable = true
+
+[output.pdf]
+
+[output.pdf-outline]
