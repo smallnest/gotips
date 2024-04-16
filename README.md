@@ -1,5 +1,5 @@
 # gotips
-Go tips from Phuong Le. 
+Go tips from [Phuong Le](https://twitter.com/func25). 
 
 中文版
 
