@@ -104,7 +104,7 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 73 |  | | 
 | 74 |  | | 
 | 75 |  | | 
-| 76 |  | | 
+| 76 |  Result forwarding in function calls | syjs10 | 
 | 77 |  Buffered channels as semaphores to limit goroutine execution |QingyaFan | 
 | 78 | Non-blocking channel send trick | hxzhouh |
 | 79 |  | | 
