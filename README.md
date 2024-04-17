@@ -103,7 +103,7 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 74 |  | |  |
 | 75 |  | |  |
 | 76 |  | |  |
-| 77 |  | |  |
+| 77 | Buffered channels as semaphores to limit goroutine execution | cheerfun | 已认领 |
 | 78 | Non-blocking channel send trick | hxzhouh | 已认领 |
 | 79 |  | |  |
 | 80 |  | |  |
