@@ -1,6 +1,6 @@
 # gotips Go语言编程技巧
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 Go tips from [Phuong Le](https://twitter.com/func25). 
 
@@ -159,6 +159,7 @@ http://localhost:3000
       <td align="center" valign="top" width="14.28%"><a href="https://colobu.com/"><img src="https://avatars.githubusercontent.com/u/865763?v=4?s=100" width="100px;" alt="smallnest"/><br /><sub><b>smallnest</b></sub></a><br /><a href="https://github.com/smallnest/gotips/commits?author=smallnest" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/hxzhouh"><img src="https://avatars.githubusercontent.com/u/25883521?v=4?s=100" width="100px;" alt="hxzhouh"/><br /><sub><b>hxzhouh</b></sub></a><br /><a href="https://github.com/smallnest/gotips/commits?author=hxzhouh" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/icyfire"><img src="https://avatars.githubusercontent.com/u/1171180?v=4?s=100" width="100px;" alt="icyfire"/><br /><sub><b>icyfire</b></sub></a><br /><a href="https://github.com/smallnest/gotips/commits?author=icyfire" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/syjs10"><img src="https://avatars.githubusercontent.com/u/15065304?v=4?s=100" width="100px;" alt="JS"/><br /><sub><b>JS</b></sub></a><br /><a href="https://github.com/smallnest/gotips/commits?author=syjs10" title="Code">💻</a></td>
     </tr>
   </tbody>
   <tfoot>
