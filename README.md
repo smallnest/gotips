@@ -1,7 +1,7 @@
 # gotips Go语言编程技巧
 Go tips from [Phuong Le](https://twitter.com/func25). 
 
-当前翻译后的站点: [Go语言编程技巧](https://colobu.com/gotips/)
+翻译后的站点: [Go语言编程技巧](https://colobu.com/gotips/) (自动生成)
 
 ## 翻译规范
 
@@ -12,6 +12,16 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 
 - 项目自动统计贡献者
 - 翻译请保持语句通顺，可以使用AI协助翻译，但是一定要避免生硬和机翻的感觉
+
+> **怎么提交Pull Request? **
+> 
+> 如果大家以前没有提交过 Pull Request,可以探索下。
+> 首先点击项目右上角的 Fork 按钮，将项目 Fork 到自己的仓库。
+> 然后更新README文件，认领相关的翻译任务。提交
+> 在github浏览你fork的项目，你会看到一个 "Create pull request" 按钮，点击它
+> 填写相关的内容提交即可。
+> 后续等待项目的维护者合并你的PR即可。
+
 
 ## 翻译任务认领表格
 
