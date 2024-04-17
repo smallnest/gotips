@@ -144,6 +144,13 @@ http://localhost:3000
 
 ## 贡献者
 
-[贡献者名单](https://github.com/smallnest/gotips/graphs/contributors)
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
 
 
