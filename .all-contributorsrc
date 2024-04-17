@@ -1,4 +1,25 @@
 {
   "projectName": "gotips",
-  "projectOwner": "smallnest"
+  "projectOwner": "smallnest",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "commitConvention": "none",
+  "contributors": [
+    {
+      "login": "smallnest",
+      "name": "smallnest",
+      "avatar_url": "https://avatars.githubusercontent.com/u/865763?v=4",
+      "profile": "https://colobu.com/",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "linkToUsage": true
 }
