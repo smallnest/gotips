@@ -31,7 +31,7 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 3 | Pre-allocate slices for performance | smallnest |
 | 4 | Parse an Array into a Slice | smallnest | 
 | 5 |  | | 
-| 6 |  | | 
+| 6 | Underscore Import |  icyfire | 
 | 7 |  | | 
 | 8 |  | | 
 | 9 |  | | 
@@ -102,7 +102,7 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 74 |  | | 
 | 75 |  | | 
 | 76 |  | | 
-| 77 |  | | 
+| 77 |  Buffered channels as semaphores to limit goroutine execution |QingyaFan | 
 | 78 | Non-blocking channel send trick | hxzhouh |
 | 79 |  | | 
 | 80 |  | | 
