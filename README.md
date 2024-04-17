@@ -17,7 +17,7 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 > 
 > 如果大家以前没有提交过 Pull Request,可以探索下。
 > 首先点击项目右上角的 Fork 按钮，将项目 Fork 到自己的仓库。
-> 然后更新README文件，认领相关的翻译任务。提交
+> 然后提交issue,标题中注明认领的tip号和标题，认领相关的翻译任务。提交
 > 在github浏览你fork的项目，你会看到一个 "Create pull request" 按钮，点击它
 > 填写相关的内容提交即可。
 > 后续等待项目的维护者合并你的PR即可。
@@ -104,7 +104,7 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 75 |  | |  |
 | 76 |  | |  |
 | 77 |  | |  |
-| 78 |  | |  |
+| 78 | Non-blocking channel send trick | hxzhouh | 已认领 |
 | 79 |  | |  |
 | 80 |  | |  |
 | 81 |  | |  |
