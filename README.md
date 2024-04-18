@@ -90,7 +90,7 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 41 |  |           | 
 | 42 |  |           | 
 | 43 |  |           | 
-| 44 |  |           | 
+| 44 |  Intentionally Stop with Must Functions | syjs10          | 
 | 45 |  |           | 
 | 46 |  |           | 
 | 47 |  |           | 
