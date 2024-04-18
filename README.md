@@ -54,7 +54,7 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 5 |  |           | 
 | 6 | Underscore Import | icyfire   | 
 | 7 |  |           | 
-| 8 |  |           | 
+| 8 | Wrapping Errors | icyfire   | 
 | 9 | Compile-Time Interface Verification | icyfire   | 
 | 10 |  |           | 
 | 11 |  |           | 
