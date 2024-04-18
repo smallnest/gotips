@@ -1,6 +1,6 @@
 # gotips Go语言编程技巧
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-6-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 Go tips from [Phuong Le](https://twitter.com/func25). 
 
@@ -179,6 +179,7 @@ http://localhost:3000
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/icyfire"><img src="https://avatars.githubusercontent.com/u/1171180?v=4?s=100" width="100px;" alt="icyfire"/><br /><sub><b>icyfire</b></sub></a><br /><a href="https://github.com/smallnest/gotips/commits?author=icyfire" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/syjs10"><img src="https://avatars.githubusercontent.com/u/15065304?v=4?s=100" width="100px;" alt="JS"/><br /><sub><b>JS</b></sub></a><br /><a href="https://github.com/smallnest/gotips/commits?author=syjs10" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="http://stackoverflow.com/users/3011380/zangw"><img src="https://avatars.githubusercontent.com/u/1590890?v=4?s=100" width="100px;" alt="richzw"/><br /><sub><b>richzw</b></sub></a><br /><a href="https://github.com/smallnest/gotips/commits?author=richzw" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/QingyaFan"><img src="https://avatars.githubusercontent.com/u/10420579?v=4?s=100" width="100px;" alt="cheerfun"/><br /><sub><b>cheerfun</b></sub></a><br /><a href="https://github.com/smallnest/gotips/commits?author=QingyaFan" title="Code">💻</a></td>
     </tr>
   </tbody>
   <tfoot>
