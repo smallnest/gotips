@@ -25,6 +25,24 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 > 后续等待项目的维护者合并你的PR即可。
 
 
+## 翻译模板
+
+```markdown
+# Tip #76 函数调用的结果回传
+
+>  原始链接：[Golang Tip #76: Result forwarding in function call](https://twitter.com/func25/status/1779128931586850890)
+>
+
+当我刚开始使用go语言的时候，我发现有一个概念比较棘手：函数调用结果的回传。
+
+....
+```
+
+- 在src下创建翻译文件: `xxx.md`, 内容模板如上
+- 图片放入 `src/images` 文件夹中
+- 在 `src/SUMMARY.md` 文件中加入你翻译的一项
+- 在 `README` 文件中**翻译任务认领表格** 填写你翻译的项目
+
 ## 翻译任务认领表格
 
 | tip序号 | 标题 | 译者 | 状态 |
