@@ -120,7 +120,7 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 71 |  |           | 
 | 72 |  |           | 
 | 73 |  |           | 
-| 74 |  |           | 
+| 74 |  Make time.Duration clear and easy to understand | richzw | 
 | 75 |  |           | 
 | 76 |  Result forwarding in function calls | syjs10    | 
 | 77 |  Buffered channels as semaphores to limit goroutine execution | QingyaFan | 
