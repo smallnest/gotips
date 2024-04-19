@@ -45,15 +45,15 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 
 ## 翻译任务认领表格
 
-| tip序号 | 标题 | 译者        | 状态 |
-| --- | --- |-----------| --- |
+| tip序号 | 标题 | 译者        | 
+| --- | --- |-----------|
 | 1 | Measure the execution time of a function in just one line of code. | smallnest |
 | 2 | Multistage defer | smallnest |
 | 3 | Pre-allocate slices for performance | smallnest |
 | 4 | Parse an Array into a Slice | smallnest | 
-| 5 |  |           | 
+| 5 | Method Chaining |           | 
 | 6 | Underscore Import | icyfire   | 
-| 7 |  |           | 
+| 7 |  作者已删除|           | 
 | 8 | Wrapping Errors | icyfire   | 
 | 9 | Compile-Time Interface Verification | icyfire   | 
 | 10 |  |           | 
