@@ -45,20 +45,20 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 
 ## 翻译任务认领表格
 
-| tip序号 | 标题 | 译者        | 状态 |
-| --- | --- |-----------| --- |
+| tip序号 | 标题 | 译者        | 
+| --- | --- |-----------|
 | 1 | Measure the execution time of a function in just one line of code. | smallnest |
 | 2 | Multistage defer | smallnest |
 | 3 | Pre-allocate slices for performance | smallnest |
 | 4 | Parse an Array into a Slice | smallnest | 
-| 5 |  |           | 
+| 5 | Method Chaining |           | 
 | 6 | Underscore Import | icyfire   | 
-| 7 |  |           | 
+| 7 |  作者已删除|           | 
 | 8 | Wrapping Errors | icyfire   | 
 | 9 | Compile-Time Interface Verification | icyfire   | 
 | 10 |  |           | 
 | 11 |  |           | 
-| 12 |  |           | 
+| 12 | Avoid using math/rand, use crypto/rand for keys instead | icyfire   | 
 | 13 |  |           | 
 | 14 |  |           | 
 | 15 |  |           | 
@@ -90,7 +90,7 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 41 |  |           | 
 | 42 |  |           | 
 | 43 |  |           | 
-| 44 |  Intentionally Stop with Must Functions | syjs10          | 
+| 44 |  Intentionally Stop with Must Functions | syjs10    | 
 | 45 |  |           | 
 | 46 |  |           | 
 | 47 |  |           | 
@@ -120,7 +120,7 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 71 |  |           | 
 | 72 |  |           | 
 | 73 |  |           | 
-| 74 |  Make time.Duration clear and easy to understand | richzw | 
+| 74 |  Make time.Duration clear and easy to understand | richzw    | 
 | 75 |  |           | 
 | 76 |  Result forwarding in function calls | syjs10    | 
 | 77 |  Buffered channels as semaphores to limit goroutine execution | QingyaFan | 
