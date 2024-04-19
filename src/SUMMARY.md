@@ -9,6 +9,7 @@
 - [Tip #9 编译时接口检查](./009.md)
 - [Tip #44 有意地使用Must函数来停止程序](./044.md)
 - [Tip #74 使 time.Duration 清晰易懂](./074.md)
+- [Tip #75 使用singleflight优化多次调用](./075.md)
 - [Tip #76 函数调用的结果回传](./076.md)
 - [Tip #77 带缓冲的 channel 作为信号量来限制 goroutine 执行](./077.md)
 - [Tip #78 非阻塞 channel 发送技巧](./078.md)
