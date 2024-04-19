@@ -51,7 +51,7 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 2 | Multistage defer | smallnest |
 | 3 | Pre-allocate slices for performance | smallnest |
 | 4 | Parse an Array into a Slice | smallnest | 
-| 5 | Method Chaining |           | 
+| 5 | Method Chaining |   smallnest       | 
 | 6 | Underscore Import | icyfire   | 
 | 7 |  作者已删除|           | 
 | 8 | Wrapping Errors | icyfire   | 
@@ -150,7 +150,7 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 
 ## 生成文档
 
-安装`mdbook`和`mdbook-pdf`工具。
+如果你想在本地编译， 请安装[mdbook](https://github.com/rust-lang/mdBook)工具。
 
 ### 本地预览
 在本地`mdbook serve`可以生成本地网站访问。
