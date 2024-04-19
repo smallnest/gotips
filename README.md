@@ -73,7 +73,7 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 24 |  |           | 
 | 25 |  |           | 
 | 26 |  |           | 
-| 27 |  |           | 
+| 27 | Filter without any allocation |    devin7788       | 
 | 28 |  |           | 
 | 29 |  |           | 
 | 30 |  |           | 
@@ -93,7 +93,7 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 44 |  Intentionally Stop with Must Functions | syjs10    | 
 | 45 |  |           | 
 | 46 |  |           | 
-| 47 |  |           | 
+| 47 | Table-driven tests, subtests, and parallel tests |    devin7788       | 
 | 48 |  |           | 
 | 49 |  |           | 
 | 50 |  |           | 
@@ -111,7 +111,7 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 62 |  |           | 
 | 63 |  |           | 
 | 64 |  |           | 
-| 65 |  |           | 
+| 65 | Returning Pointers Made Easy with Generics |    miniLCT       | 
 | 66 |  |           | 
 | 67 |  |           | 
 | 68 |  |           | 
@@ -121,7 +121,7 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 72 |  |           | 
 | 73 |  |           | 
 | 74 |  Make time.Duration clear and easy to understand | richzw    | 
-| 75 |  |           | 
+| 75 | Optimize multiple calls with singleflight |   hxzhouh         | 
 | 76 |  Result forwarding in function calls | syjs10    | 
 | 77 |  Buffered channels as semaphores to limit goroutine execution | QingyaFan | 
 | 78 | Non-blocking channel send trick | hxzhouh   |
@@ -166,7 +166,6 @@ http://localhost:3000
 
 ## 贡献者 ✨
 
-感谢贡献者 ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
