@@ -115,7 +115,7 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 66 |  |           | 
 | 67 |  |           | 
 | 68 |  |           | 
-| 69 |  |           | 
+| 69 | Manage multiple goroutines with errgroup |  richzw  | 
 | 70 |  |           | 
 | 71 | sync.Pool, make it typed-safe with generics | QingyaFan |
 | 72 |  |           | 
