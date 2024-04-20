@@ -119,7 +119,7 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 70 |  |           | 
 | 71 | sync.Pool, make it typed-safe with generics | QingyaFan |
 | 72 |  |           | 
-| 73 |  |           | 
+| 73 |   Implement String() for enum with the stringer tool |  syjs10      | 
 | 74 |  Make time.Duration clear and easy to understand | richzw    | 
 | 75 | Optimize multiple calls with singleflight | hxzhouh   | 
 | 76 |  Result forwarding in function calls | syjs10    | 
