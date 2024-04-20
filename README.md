@@ -59,7 +59,7 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 10 |  |           | 
 | 11 | Numeric separators | icyfire   | 
 | 12 | Avoid using math/rand, use crypto/rand for keys instead | icyfire   | 
-| 13 |  |           | 
+| 13 | Empty slice or, even better, NIL SLICE | icyfire   | 
 | 14 |  |           | 
 | 15 |  |           | 
 | 16 |  |           | 
