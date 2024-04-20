@@ -114,7 +114,7 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 65 | Returning Pointers Made Easy with Generics | miniLCT   | 
 | 66 |  |           | 
 | 67 |  |           | 
-| 68 |  |           | 
+| 68 | Use the deadcode tool to find and remove unused functions | richzw | 
 | 69 | Manage multiple goroutines with errgroup | richzw    | 
 | 70 |  |           | 
 | 71 | sync.Pool, make it typed-safe with generics | QingyaFan |

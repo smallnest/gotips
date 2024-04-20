@@ -16,6 +16,7 @@
 - [Tip #47 表驱动测试，测试集和并行运行测试](./047.md)
 - [Tip #71 用泛型让 sync.Pool 类型安全](./071.md)
 - [Tip #65 使用泛型返回指针](./065.md)
+- [Tip #68 使用deadcode工具来找到和删除无用的函数](./068.md)
 - [Tip #69 通过errgrup管理多个goroutine](./069.md)
 - [Tip #74 使 time.Duration 清晰易懂](./074.md)
 - [Tip #75 使用singleflight优化多次调用](./075.md)
