@@ -51,13 +51,13 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 2 | Multistage defer | smallnest |
 | 3 | Pre-allocate slices for performance | smallnest |
 | 4 | Parse an Array into a Slice | smallnest | 
-| 5 | Method Chaining |   smallnest       | 
+| 5 | Method Chaining | smallnest | 
 | 6 | Underscore Import | icyfire   | 
 | 7 |  作者已删除|           | 
 | 8 | Wrapping Errors | icyfire   | 
 | 9 | Compile-Time Interface Verification | icyfire   | 
 | 10 |  |           | 
-| 11 |  |           | 
+| 11 | Numeric separators | icyfire   | 
 | 12 | Avoid using math/rand, use crypto/rand for keys instead | icyfire   | 
 | 13 |  |           | 
 | 14 |  |           | 
@@ -73,7 +73,7 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 24 |  |           | 
 | 25 |  |           | 
 | 26 |  |           | 
-| 27 | Filter without any allocation |    devin7788       | 
+| 27 | Filter without any allocation | devin7788 | 
 | 28 |  |           | 
 | 29 |  |           | 
 | 30 |  |           | 
@@ -93,7 +93,7 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 44 |  Intentionally Stop with Must Functions | syjs10    | 
 | 45 |  |           | 
 | 46 |  |           | 
-| 47 | Table-driven tests, subtests, and parallel tests |    devin7788       | 
+| 47 | Table-driven tests, subtests, and parallel tests | devin7788 | 
 | 48 |  |           | 
 | 49 |  |           | 
 | 50 |  |           | 
@@ -111,17 +111,17 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 62 |  |           | 
 | 63 |  |           | 
 | 64 |  |           | 
-| 65 | Returning Pointers Made Easy with Generics |    miniLCT       | 
+| 65 | Returning Pointers Made Easy with Generics | miniLCT   | 
 | 66 |  |           | 
 | 67 |  |           | 
 | 68 |  |           | 
-| 69 | Manage multiple goroutines with errgroup |  richzw  | 
+| 69 | Manage multiple goroutines with errgroup | richzw    | 
 | 70 |  |           | 
 | 71 | sync.Pool, make it typed-safe with generics | QingyaFan |
 | 72 |  |           | 
 | 73 |  |           | 
 | 74 |  Make time.Duration clear and easy to understand | richzw    | 
-| 75 | Optimize multiple calls with singleflight |   hxzhouh         | 
+| 75 | Optimize multiple calls with singleflight | hxzhouh   | 
 | 76 |  Result forwarding in function calls | syjs10    | 
 | 77 |  Buffered channels as semaphores to limit goroutine execution | QingyaFan | 
 | 78 | Non-blocking channel send trick | hxzhouh   |
