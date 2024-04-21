@@ -109,7 +109,7 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 60 | sync.Once is the best way to do things once |   smallnest       | 
 | 61 |  |           | 
 | 62 |  |           | 
-| 63 |  |           | 
+| 63 | Avoid time.Sleep(), it's not context-aware and can't be interrupted | richzw | 
 | 64 |  |           | 
 | 65 | Returning Pointers Made Easy with Generics | miniLCT   | 
 | 66 | Simplify Your Error Messages in fmt.Errorf |   smallnest       | 
