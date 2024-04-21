@@ -112,7 +112,7 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 63 |  |           | 
 | 64 |  |           | 
 | 65 | Returning Pointers Made Easy with Generics | miniLCT   | 
-| 66 |  |           | 
+| 66 | Simplify Your Error Messages in fmt.Errorf |   smallnest       | 
 | 67 | How to deal with long function signatures | richzw | 
 | 68 | Use the deadcode tool to find and remove unused functions | richzw | 
 | 69 | Manage multiple goroutines with errgroup | richzw    | 
