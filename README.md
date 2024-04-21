@@ -84,7 +84,7 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 35 |  |           | 
 | 36 |  |           | 
 | 37 |  |           | 
-| 38 |  |           | 
+| 38 | Make your errors clear with fmt.Errorf, don't just leave them bare |    smallnest       | 
 | 39 |  |           | 
 | 40 |  |           | 
 | 41 |  |           | 
