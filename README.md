@@ -6,11 +6,11 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 
 翻译后的站点: [Go语言编程技巧](https://colobu.com/gotips/) (自动生成)
 
-**微信讨论群**
-![](src/images/wechat.png  | width=320)
+**微信讨论群:**
+<img src="src/images/wechat.png" width="320px">
 
 
-**翻译进度**： 35/78 = 45%
+**翻译进度:**： 35/78 = 45%
 
 ## 翻译规范
 
