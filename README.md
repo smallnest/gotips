@@ -66,7 +66,7 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 17 |  |           | 
 | 18 |  |           | 
 | 19 |  |           | 
-| 20 |  |           | 
+| 20 | Pass values, not pointers |   smallnest    | 
 | 21 |  |           | 
 | 22 |  |           | 
 | 23 |  |           | 
@@ -76,7 +76,7 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 27 | Filter without any allocation | devin7788 | 
 | 28 |  |           | 
 | 29 |  |           | 
-| 30 |  |           | 
+| 30 | 使用context.WithoutCancel()继续上下文操作 |   smallnest        | 
 | 31 |  |           | 
 | 32 |  |           | 
 | 33 |  |           | 
@@ -84,9 +84,9 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 35 |  |           | 
 | 36 |  |           | 
 | 37 |  |           | 
-| 38 |  |           | 
+| 38 | Make your errors clear with fmt.Errorf, don't just leave them bare |    smallnest       | 
 | 39 |  |           | 
-| 40 |  |           | 
+| 40 | Handle errors while using defer to prevent silent failures |    smallnest       | 
 | 41 |  |           | 
 | 42 |  |           | 
 | 43 |  |           | 
@@ -96,7 +96,7 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 47 | Table-driven tests, subtests, and parallel tests | devin7788 | 
 | 48 |  |           | 
 | 49 |  |           | 
-| 50 |  |           | 
+| 50 | Make Structs Non-comparable. |     smallnest      | 
 | 51 |  |           | 
 | 52 |  |           | 
 | 53 |  |           | 
@@ -106,14 +106,14 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 57 |  |           | 
 | 58 |  |           | 
 | 59 |  |           | 
-| 60 |  |           | 
+| 60 | sync.Once is the best way to do things once |   smallnest       | 
 | 61 |  |           | 
 | 62 |  |           | 
 | 63 |  |           | 
 | 64 |  |           | 
 | 65 | Returning Pointers Made Easy with Generics | miniLCT   | 
-| 66 |  |           | 
-| 67 |  |           | 
+| 66 | Simplify Your Error Messages in fmt.Errorf |   smallnest       | 
+| 67 | How to deal with long function signatures | richzw | 
 | 68 | Use the deadcode tool to find and remove unused functions | richzw | 
 | 69 | Manage multiple goroutines with errgroup | richzw    | 
 | 70 |  |           | 
