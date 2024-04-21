@@ -106,7 +106,7 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 57 |  |           | 
 | 58 |  |           | 
 | 59 |  |           | 
-| 60 |  |           | 
+| 60 | sync.Once is the best way to do things once |   smallnest       | 
 | 61 |  |           | 
 | 62 |  |           | 
 | 63 |  |           | 
