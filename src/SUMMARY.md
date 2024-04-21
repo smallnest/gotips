@@ -29,6 +29,7 @@
 - [Tip #68 使用deadcode工具来找到和删除无用的函数](./068.md)
 - [Tip #69 通过errgrup管理多个goroutine](./069.md)
 - [Tip #70 实现一个感知context的sleep 函数](./070.md)
+- [Tip #72 使用strings.EqualFold进行忽略大小写的字符串比较](./072.md)
 - [Tip #73 用stringer工具给枚举类型实现String()方法](./073.md)
 - [Tip #74 使 time.Duration 清晰易懂](./074.md)
 - [Tip #75 使用singleflight优化多次调用](./075.md)
