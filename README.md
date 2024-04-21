@@ -96,7 +96,7 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 47 | Table-driven tests, subtests, and parallel tests | devin7788 | 
 | 48 |  |           | 
 | 49 |  |           | 
-| 50 |  |           | 
+| 50 | Make Structs Non-comparable. |     smallnest      | 
 | 51 |  |           | 
 | 52 |  |           | 
 | 53 |  |           | 
