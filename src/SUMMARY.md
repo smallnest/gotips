@@ -13,6 +13,7 @@
 - [Tip #12 使用 crypto/rand 生成密钥，避免使用 math/rand](./012.md)
 - [Tip #13 使用空切片还是更好的NIL切片](./013.md)
 - [Tip #27 原地过滤](./027.md)
+- [Tip #30 使用context.WithoutCancel()继续上下文操作](./030.md)
 - [Tip #38 使用 fmt.Errorf 使你的错误信息清晰明了，不要让它们过于赤裸](./038.md)
 - [Tip #44 有意地使用Must函数来停止程序](./044.md)
 - [Tip #47 表驱动测试，测试集和并行运行测试](./047.md)

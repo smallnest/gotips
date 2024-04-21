@@ -76,7 +76,7 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 27 | Filter without any allocation | devin7788 | 
 | 28 |  |           | 
 | 29 |  |           | 
-| 30 |  |           | 
+| 30 | 使用context.WithoutCancel()继续上下文操作 |   smallnest        | 
 | 31 |  |           | 
 | 32 |  |           | 
 | 33 |  |           | 
