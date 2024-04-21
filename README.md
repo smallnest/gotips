@@ -7,7 +7,7 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 翻译后的站点: [Go语言编程技巧](https://colobu.com/gotips/) (自动生成)
 
 **微信讨论群**
-<a target="_blank" rel="noopener noreferrer" href="/smallnest/gotips/blob/master/src/images/wechat.png"><img src="/smallnest/gotips/raw/master/src/images/wechat.png" alt="" width=500px style="max-width: 50%;"></a></p>
+![](src/images/wechat.png  | width=320)
 
 
 **翻译进度**： 35/78 = 45%
