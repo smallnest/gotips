@@ -69,7 +69,7 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 13 | Empty slice or, even better, NIL SLICE | icyfire   | 
 | 14 | Error messages should not be capitalized or end with punctuation | icyfire   | 
 | 15 |  |           | 
-| 16 |  |           | 
+| 16 |  Don't Return -1 or nil to Indicate Error. |  kagaya85  | 
 | 17 |  |           | 
 | 18 |  |           | 
 | 19 |  |           | 
