@@ -112,7 +112,7 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 56 |  |           | 
 | 57 |  |           | 
 | 58 |  |           | 
-| 59 |  |           | 
+| 59 | If a parameter isn't needed, either drop it or ignore it on purpose | TravisRoad |
 | 60 | sync.Once is the best way to do things once |   smallnest       | 
 | 61 |  |           | 
 | 62 |  |           | 
