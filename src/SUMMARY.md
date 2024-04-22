@@ -13,6 +13,7 @@
 - [Tip #11 数字分隔符](./011.md)
 - [Tip #12 使用 crypto/rand 生成密钥，避免使用 math/rand](./012.md)
 - [Tip #13 使用空切片还是更好的NIL切片](./013.md)
+- [Tip #16 不要通过返回 -1 或者 nil 来表示错误](./016.md)
 - [Tip #20 传递值，而不是指针](./020.md)
 - [Tip #27 原地过滤](./027.md)
 - [Tip #30 使用context.WithoutCancel()继续上下文操作](./030.md)
