@@ -1,10 +1,17 @@
 # gotips Go语言编程技巧
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-6-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-8-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 Go tips from [Phuong Le](https://twitter.com/func25). 
 
 翻译后的站点: [Go语言编程技巧](https://colobu.com/gotips/) (自动生成)
+
+**微信讨论群:**
+
+<img src="src/images/wechat.png" width="200px">
+
+
+**翻译进度:**： 37/78 = 47.4%
 
 ## 翻译规范
 
@@ -51,32 +58,32 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 2 | Multistage defer | smallnest |
 | 3 | Pre-allocate slices for performance | smallnest |
 | 4 | Parse an Array into a Slice | smallnest | 
-| 5 | Method Chaining |           | 
+| 5 | Method Chaining | smallnest | 
 | 6 | Underscore Import | icyfire   | 
 | 7 |  作者已删除|           | 
 | 8 | Wrapping Errors | icyfire   | 
 | 9 | Compile-Time Interface Verification | icyfire   | 
-| 10 |  |           | 
-| 11 |  |           | 
+| 10 | Avoid Naked Parameters  |     smallnest      | 
+| 11 | Numeric separators | icyfire   | 
 | 12 | Avoid using math/rand, use crypto/rand for keys instead | icyfire   | 
-| 13 |  |           | 
+| 13 | Empty slice or, even better, NIL SLICE | icyfire   | 
 | 14 |  |           | 
 | 15 |  |           | 
 | 16 |  |           | 
 | 17 |  |           | 
 | 18 |  |           | 
 | 19 |  |           | 
-| 20 |  |           | 
+| 20 | Pass values, not pointers |   smallnest    | 
 | 21 |  |           | 
 | 22 |  |           | 
 | 23 |  |           | 
 | 24 |  |           | 
 | 25 |  |           | 
 | 26 |  |           | 
-| 27 |  |           | 
+| 27 | Filter without any allocation | devin7788 | 
 | 28 |  |           | 
 | 29 |  |           | 
-| 30 |  |           | 
+| 30 | 使用context.WithoutCancel()继续上下文操作 |   smallnest        | 
 | 31 |  |           | 
 | 32 |  |           | 
 | 33 |  |           | 
@@ -84,19 +91,19 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 35 |  |           | 
 | 36 |  |           | 
 | 37 |  |           | 
-| 38 |  |           | 
+| 38 | Make your errors clear with fmt.Errorf, don't just leave them bare |    smallnest       | 
 | 39 |  |           | 
-| 40 |  |           | 
+| 40 | Handle errors while using defer to prevent silent failures |    smallnest       | 
 | 41 |  |           | 
 | 42 |  |           | 
 | 43 |  |           | 
 | 44 |  Intentionally Stop with Must Functions | syjs10    | 
 | 45 |  |           | 
 | 46 |  |           | 
-| 47 |  |           | 
+| 47 | Table-driven tests, subtests, and parallel tests | devin7788 | 
 | 48 |  |           | 
 | 49 |  |           | 
-| 50 |  |           | 
+| 50 | Make Structs Non-comparable. |     smallnest      | 
 | 51 |  |           | 
 | 52 |  |           | 
 | 53 |  |           | 
@@ -106,22 +113,22 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 57 |  |           | 
 | 58 |  |           | 
 | 59 |  |           | 
-| 60 |  |           | 
+| 60 | sync.Once is the best way to do things once |   smallnest       | 
 | 61 |  |           | 
 | 62 |  |           | 
-| 63 |  |           | 
+| 63 | Avoid time.Sleep(), it's not context-aware and can't be interrupted | richzw | 
 | 64 |  |           | 
-| 65 |  |           | 
-| 66 |  |           | 
-| 67 |  |           | 
-| 68 |  |           | 
-| 69 |  |           | 
-| 70 |  |           | 
-| 71 |  |           | 
-| 72 |  |           | 
-| 73 |  |           | 
+| 65 | Returning Pointers Made Easy with Generics | miniLCT   | 
+| 66 | Simplify Your Error Messages in fmt.Errorf |   smallnest       | 
+| 67 | How to deal with long function signatures | richzw | 
+| 68 | Use the deadcode tool to find and remove unused functions | richzw | 
+| 69 | Manage multiple goroutines with errgroup | richzw    | 
+| 70 |  Implement a context-aware sleep function | hxzhouh           | 
+| 71 | sync.Pool, make it typed-safe with generics | QingyaFan |
+| 72 |  Case-Insensitive string comparison with strings.EqualFold | syjs10  | 
+| 73 |   Implement String() for enum with the stringer tool |  syjs10      | 
 | 74 |  Make time.Duration clear and easy to understand | richzw    | 
-| 75 |  |           | 
+| 75 | Optimize multiple calls with singleflight | hxzhouh   | 
 | 76 |  Result forwarding in function calls | syjs10    | 
 | 77 |  Buffered channels as semaphores to limit goroutine execution | QingyaFan | 
 | 78 | Non-blocking channel send trick | hxzhouh   |
@@ -150,7 +157,7 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 
 ## 生成文档
 
-安装`mdbook`和`mdbook-pdf`工具。
+如果你想在本地编译， 请安装[mdbook](https://github.com/rust-lang/mdBook)工具。
 
 ### 本地预览
 在本地`mdbook serve`可以生成本地网站访问。
@@ -166,7 +173,6 @@ http://localhost:3000
 
 ## 贡献者 ✨
 
-感谢贡献者 ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
@@ -180,6 +186,10 @@ http://localhost:3000
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/syjs10"><img src="https://avatars.githubusercontent.com/u/15065304?v=4?s=100" width="100px;" alt="JS"/><br /><sub><b>JS</b></sub></a><br /><a href="https://github.com/smallnest/gotips/commits?author=syjs10" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="http://stackoverflow.com/users/3011380/zangw"><img src="https://avatars.githubusercontent.com/u/1590890?v=4?s=100" width="100px;" alt="richzw"/><br /><sub><b>richzw</b></sub></a><br /><a href="https://github.com/smallnest/gotips/commits?author=richzw" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/QingyaFan"><img src="https://avatars.githubusercontent.com/u/10420579?v=4?s=100" width="100px;" alt="cheerfun"/><br /><sub><b>cheerfun</b></sub></a><br /><a href="https://github.com/smallnest/gotips/commits?author=QingyaFan" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/miniLCT"><img src="https://avatars.githubusercontent.com/u/45364609?v=4?s=100" width="100px;" alt="rkmdsxmds"/><br /><sub><b>rkmdsxmds</b></sub></a><br /><a href="https://github.com/smallnest/gotips/commits?author=miniLCT" title="Code">💻</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/devin7788"><img src="https://avatars.githubusercontent.com/u/39721466?v=4?s=100" width="100px;" alt="devin7788"/><br /><sub><b>devin7788</b></sub></a><br /><a href="https://github.com/smallnest/gotips/commits?author=devin7788" title="Code">💻</a></td>
     </tr>
   </tbody>
   <tfoot>

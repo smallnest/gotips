@@ -9,7 +9,3 @@ title = "Go语言编程技巧"
 
 [output.html.print]
 enable = true
-
-# [output.pdf]
-
-# [output.pdf-outline]
