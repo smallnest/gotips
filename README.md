@@ -109,7 +109,7 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 53 |  |           | 
 | 54 |  |           | 
 | 55 |  |           | 
-| 56 |  |           | 
+| 56 | Simplify interfaces and only ask for what you really need  | cannian1 | 
 | 57 |  |           | 
 | 58 |  |           | 
 | 59 |  |           | 
