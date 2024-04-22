@@ -69,7 +69,7 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 13 | Empty slice or, even better, NIL SLICE | icyfire   | 
 | 14 | Error messages should not be capitalized or end with punctuation | icyfire   | 
 | 15 |  |           | 
-| 16 |  |           | 
+| 16 |  Don't Return -1 or nil to Indicate Error. |  kagaya85  | 
 | 17 |  |           | 
 | 18 |  |           | 
 | 19 |  |           | 
@@ -98,7 +98,7 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 42 |  |           | 
 | 43 |  |           | 
 | 44 |  Intentionally Stop with Must Functions | syjs10    | 
-| 45 |  |           | 
+| 45 | Always Manage Your Goroutine Lifetime. | stonemax | 
 | 46 |  |           | 
 | 47 | Table-driven tests, subtests, and parallel tests | devin7788 | 
 | 48 |  |           | 
@@ -193,6 +193,8 @@ http://localhost:3000
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/cannian1"><img src="https://avatars.githubusercontent.com/u/59365095?v=4?s=100" width="100px;" alt="Cannian"/><br /><sub><b>Cannian</b></sub></a><br /><a href="https://github.com/smallnest/gotips/commits?author=cannian1" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://blog.lxythan2lxy.cn"><img src="https://avatars.githubusercontent.com/u/46567145?v=4?s=100" width="100px;" alt="LU XIUYUAN"/><br /><sub><b>LU XIUYUAN</b></sub></a><br /><a href="https://github.com/smallnest/gotips/commits?author=TravisRoad" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/zzzpppy"><img src="https://avatars.githubusercontent.com/u/49774236?v=4?s=100" width="100px;" alt="zzzpppy"/><br /><sub><b>zzzpppy</b></sub></a><br /><a href="https://github.com/smallnest/gotips/commits?author=zzzpppy" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="http://blog.kagaya.fun"><img src="https://avatars.githubusercontent.com/u/28755005?v=4?s=100" width="100px;" alt="Kagaya"/><br /><sub><b>Kagaya</b></sub></a><br /><a href="https://github.com/smallnest/gotips/commits?author=kagaya85" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/stonemax"><img src="https://avatars.githubusercontent.com/u/4516172?v=4?s=100" width="100px;" alt="Zhang Jinlong"/><br /><sub><b>Zhang Jinlong</b></sub></a><br /><a href="https://github.com/smallnest/gotips/commits?author=stonemax" title="Code">💻</a></td>
     </tr>
   </tbody>
   <tfoot>
