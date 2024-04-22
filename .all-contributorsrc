@@ -99,6 +99,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "kagaya85",
+      "name": "Kagaya",
+      "avatar_url": "https://avatars.githubusercontent.com/u/28755005?v=4",
+      "profile": "http://blog.kagaya.fun",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
