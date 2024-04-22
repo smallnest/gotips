@@ -117,7 +117,7 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 61 | Making a Type with Built-In Locking (sync.Mutex embedding) |  richzw  | 
 | 62 |  |           | 
 | 63 | Avoid time.Sleep(), it's not context-aware and can't be interrupted | richzw    | 
-| 64 |  |           | 
+| 64 | Make main() clean and testable | syjs10    | 
 | 65 | Returning Pointers Made Easy with Generics | miniLCT   | 
 | 66 | Simplify Your Error Messages in fmt.Errorf | smallnest | 
 | 67 | How to deal with long function signatures | richzw    | 
