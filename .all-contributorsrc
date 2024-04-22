@@ -81,6 +81,24 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "cannian1",
+      "name": "Cannian",
+      "avatar_url": "https://avatars.githubusercontent.com/u/59365095?v=4",
+      "profile": "https://github.com/cannian1",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "TravisRoad",
+      "name": "LU XIUYUAN",
+      "avatar_url": "https://avatars.githubusercontent.com/u/46567145?v=4",
+      "profile": "https://blog.lxythan2lxy.cn",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
