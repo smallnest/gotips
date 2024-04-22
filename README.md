@@ -11,7 +11,7 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 <img src="src/images/wechat.png" width="200px">
 
 
-**翻译进度:**： 35/78 = 45%
+**翻译进度:**： 37/78 = 47.4%
 
 ## 翻译规范
 
@@ -63,7 +63,7 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 7 |  作者已删除|           | 
 | 8 | Wrapping Errors | icyfire   | 
 | 9 | Compile-Time Interface Verification | icyfire   | 
-| 10 |  |           | 
+| 10 | Avoid Naked Parameters  |     smallnest      | 
 | 11 | Numeric separators | icyfire   | 
 | 12 | Avoid using math/rand, use crypto/rand for keys instead | icyfire   | 
 | 13 | Empty slice or, even better, NIL SLICE | icyfire   | 
