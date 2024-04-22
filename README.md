@@ -1,6 +1,6 @@
 # gotips Go语言编程技巧
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-8-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-10-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 Go tips from [Phuong Le](https://twitter.com/func25). 
 
@@ -63,17 +63,17 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 7 |  作者已删除|           | 
 | 8 | Wrapping Errors | icyfire   | 
 | 9 | Compile-Time Interface Verification | icyfire   | 
-| 10 | Avoid Naked Parameters  |     smallnest      | 
+| 10 | Avoid Naked Parameters  | smallnest | 
 | 11 | Numeric separators | icyfire   | 
 | 12 | Avoid using math/rand, use crypto/rand for keys instead | icyfire   | 
 | 13 | Empty slice or, even better, NIL SLICE | icyfire   | 
-| 14 |  |           | 
+| 14 | Error messages should not be capitalized or end with punctuation | icyfire   | 
 | 15 |  |           | 
 | 16 |  Don't Return -1 or nil to Indicate Error. |  kagaya85  | 
 | 17 |  |           | 
 | 18 |  |           | 
 | 19 |  |           | 
-| 20 | Pass values, not pointers |   smallnest    | 
+| 20 | Pass values, not pointers | smallnest | 
 | 21 |  |           | 
 | 22 |  |           | 
 | 23 |  |           | 
@@ -81,9 +81,9 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 25 |  |           | 
 | 26 |  |           | 
 | 27 | Filter without any allocation | devin7788 | 
-| 28 |  |           | 
+| 28 | Converting multiple if-else statements into switch cases |  zzzpppy | 
 | 29 |  |           | 
-| 30 | 使用context.WithoutCancel()继续上下文操作 |   smallnest        | 
+| 30 | 使用context.WithoutCancel()继续上下文操作 | smallnest | 
 | 31 |  |           | 
 | 32 |  |           | 
 | 33 |  |           | 
@@ -91,9 +91,9 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 35 |  |           | 
 | 36 |  |           | 
 | 37 |  |           | 
-| 38 | Make your errors clear with fmt.Errorf, don't just leave them bare |    smallnest       | 
+| 38 | Make your errors clear with fmt.Errorf, don't just leave them bare | smallnest | 
 | 39 |  |           | 
-| 40 | Handle errors while using defer to prevent silent failures |    smallnest       | 
+| 40 | Handle errors while using defer to prevent silent failures | smallnest | 
 | 41 |  |           | 
 | 42 |  |           | 
 | 43 |  |           | 
@@ -103,30 +103,30 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 47 | Table-driven tests, subtests, and parallel tests | devin7788 | 
 | 48 |  |           | 
 | 49 |  |           | 
-| 50 | Make Structs Non-comparable. |     smallnest      | 
+| 50 | Make Structs Non-comparable. | smallnest | 
 | 51 |  |           | 
 | 52 |  |           | 
 | 53 |  |           | 
 | 54 |  |           | 
 | 55 |  |           | 
-| 56 |  |           | 
+| 56 | Simplify interfaces and only ask for what you really need  | cannian1 | 
 | 57 |  |           | 
 | 58 |  |           | 
-| 59 |  |           | 
+| 59 | If a parameter isn't needed, either drop it or ignore it on purpose | TravisRoad |
 | 60 | sync.Once is the best way to do things once |   smallnest       | 
-| 61 |  |           | 
+| 61 | Making a Type with Built-In Locking (sync.Mutex embedding) |  richzw  | 
 | 62 |  |           | 
-| 63 | Avoid time.Sleep(), it's not context-aware and can't be interrupted | richzw | 
+| 63 | Avoid time.Sleep(), it's not context-aware and can't be interrupted | richzw    | 
 | 64 |  |           | 
 | 65 | Returning Pointers Made Easy with Generics | miniLCT   | 
-| 66 | Simplify Your Error Messages in fmt.Errorf |   smallnest       | 
-| 67 | How to deal with long function signatures | richzw | 
-| 68 | Use the deadcode tool to find and remove unused functions | richzw | 
+| 66 | Simplify Your Error Messages in fmt.Errorf | smallnest | 
+| 67 | How to deal with long function signatures | richzw    | 
+| 68 | Use the deadcode tool to find and remove unused functions | richzw    | 
 | 69 | Manage multiple goroutines with errgroup | richzw    | 
-| 70 |  Implement a context-aware sleep function | hxzhouh           | 
+| 70 |  Implement a context-aware sleep function | hxzhouh   | 
 | 71 | sync.Pool, make it typed-safe with generics | QingyaFan |
-| 72 |  Case-Insensitive string comparison with strings.EqualFold | syjs10  | 
-| 73 |   Implement String() for enum with the stringer tool |  syjs10      | 
+| 72 |  Case-Insensitive string comparison with strings.EqualFold | syjs10    | 
+| 73 |   Implement String() for enum with the stringer tool | syjs10    | 
 | 74 |  Make time.Duration clear and easy to understand | richzw    | 
 | 75 | Optimize multiple calls with singleflight | hxzhouh   | 
 | 76 |  Result forwarding in function calls | syjs10    | 
@@ -190,6 +190,8 @@ http://localhost:3000
     </tr>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/devin7788"><img src="https://avatars.githubusercontent.com/u/39721466?v=4?s=100" width="100px;" alt="devin7788"/><br /><sub><b>devin7788</b></sub></a><br /><a href="https://github.com/smallnest/gotips/commits?author=devin7788" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/cannian1"><img src="https://avatars.githubusercontent.com/u/59365095?v=4?s=100" width="100px;" alt="Cannian"/><br /><sub><b>Cannian</b></sub></a><br /><a href="https://github.com/smallnest/gotips/commits?author=cannian1" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://blog.lxythan2lxy.cn"><img src="https://avatars.githubusercontent.com/u/46567145?v=4?s=100" width="100px;" alt="LU XIUYUAN"/><br /><sub><b>LU XIUYUAN</b></sub></a><br /><a href="https://github.com/smallnest/gotips/commits?author=TravisRoad" title="Code">💻</a></td>
     </tr>
   </tbody>
   <tfoot>
