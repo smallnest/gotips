@@ -96,7 +96,7 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 40 | Handle errors while using defer to prevent silent failures | smallnest | 
 | 41 |  |           | 
 | 42 |  |           | 
-| 43 |  |           | 
+| 43 | Gracefully Shut Down Your Application |    LinPr       | 
 | 44 |  Intentionally Stop with Must Functions | syjs10    | 
 | 45 | Always Manage Your Goroutine Lifetime. | stonemax | 
 | 46 |  |           | 
