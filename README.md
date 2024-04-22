@@ -81,7 +81,7 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 25 |  |           | 
 | 26 |  |           | 
 | 27 | Filter without any allocation | devin7788 | 
-| 28 |  |           | 
+| 28 | Converting multiple if-else statements into switch cases |  zzzpppy | 
 | 29 |  |           | 
 | 30 | 使用context.WithoutCancel()继续上下文操作 |   smallnest        | 
 | 31 |  |           | 
