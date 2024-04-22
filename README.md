@@ -1,6 +1,6 @@
 # gotips Go语言编程技巧
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-8-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-9-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 Go tips from [Phuong Le](https://twitter.com/func25). 
 
@@ -109,7 +109,7 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 53 |  |           | 
 | 54 |  |           | 
 | 55 |  |           | 
-| 56 |  |           | 
+| 56 | Simplify interfaces and only ask for what you really need  | cannian1 | 
 | 57 |  |           | 
 | 58 |  |           | 
 | 59 | If a parameter isn't needed, either drop it or ignore it on purpose | TravisRoad |
@@ -190,6 +190,7 @@ http://localhost:3000
     </tr>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/devin7788"><img src="https://avatars.githubusercontent.com/u/39721466?v=4?s=100" width="100px;" alt="devin7788"/><br /><sub><b>devin7788</b></sub></a><br /><a href="https://github.com/smallnest/gotips/commits?author=devin7788" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/cannian1"><img src="https://avatars.githubusercontent.com/u/59365095?v=4?s=100" width="100px;" alt="Cannian"/><br /><sub><b>Cannian</b></sub></a><br /><a href="https://github.com/smallnest/gotips/commits?author=cannian1" title="Code">💻</a></td>
     </tr>
   </tbody>
   <tfoot>
