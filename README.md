@@ -1,6 +1,6 @@
 # gotips Go语言编程技巧
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-10-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-11-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 Go tips from [Phuong Le](https://twitter.com/func25). 
 
@@ -192,6 +192,7 @@ http://localhost:3000
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/devin7788"><img src="https://avatars.githubusercontent.com/u/39721466?v=4?s=100" width="100px;" alt="devin7788"/><br /><sub><b>devin7788</b></sub></a><br /><a href="https://github.com/smallnest/gotips/commits?author=devin7788" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/cannian1"><img src="https://avatars.githubusercontent.com/u/59365095?v=4?s=100" width="100px;" alt="Cannian"/><br /><sub><b>Cannian</b></sub></a><br /><a href="https://github.com/smallnest/gotips/commits?author=cannian1" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://blog.lxythan2lxy.cn"><img src="https://avatars.githubusercontent.com/u/46567145?v=4?s=100" width="100px;" alt="LU XIUYUAN"/><br /><sub><b>LU XIUYUAN</b></sub></a><br /><a href="https://github.com/smallnest/gotips/commits?author=TravisRoad" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="http://blog.kagaya.fun"><img src="https://avatars.githubusercontent.com/u/28755005?v=4?s=100" width="100px;" alt="Kagaya"/><br /><sub><b>Kagaya</b></sub></a><br /><a href="https://github.com/smallnest/gotips/commits?author=kagaya85" title="Code">💻</a></td>
     </tr>
   </tbody>
   <tfoot>
