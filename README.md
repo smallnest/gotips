@@ -1,6 +1,6 @@
 # gotips Go语言编程技巧
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-11-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-14-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 Go tips from [Phuong Le](https://twitter.com/func25). 
 
@@ -195,6 +195,7 @@ http://localhost:3000
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/zzzpppy"><img src="https://avatars.githubusercontent.com/u/49774236?v=4?s=100" width="100px;" alt="zzzpppy"/><br /><sub><b>zzzpppy</b></sub></a><br /><a href="https://github.com/smallnest/gotips/commits?author=zzzpppy" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="http://blog.kagaya.fun"><img src="https://avatars.githubusercontent.com/u/28755005?v=4?s=100" width="100px;" alt="Kagaya"/><br /><sub><b>Kagaya</b></sub></a><br /><a href="https://github.com/smallnest/gotips/commits?author=kagaya85" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/stonemax"><img src="https://avatars.githubusercontent.com/u/4516172?v=4?s=100" width="100px;" alt="Zhang Jinlong"/><br /><sub><b>Zhang Jinlong</b></sub></a><br /><a href="https://github.com/smallnest/gotips/commits?author=stonemax" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/HBUzxl"><img src="https://avatars.githubusercontent.com/u/86550622?v=4?s=100" width="100px;" alt="HBUzxl"/><br /><sub><b>HBUzxl</b></sub></a><br /><a href="https://github.com/smallnest/gotips/commits?author=HBUzxl" title="Code">💻</a></td>
     </tr>
   </tbody>
   <tfoot>
