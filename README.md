@@ -98,7 +98,7 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 42 |  |           | 
 | 43 |  |           | 
 | 44 |  Intentionally Stop with Must Functions | syjs10    | 
-| 45 |  |           | 
+| 45 | Always Manage Your Goroutine Lifetime. | stonemax | 
 | 46 |  |           | 
 | 47 | Table-driven tests, subtests, and parallel tests | devin7788 | 
 | 48 |  |           | 
