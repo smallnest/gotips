@@ -114,7 +114,7 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 58 |  |           | 
 | 59 | If a parameter isn't needed, either drop it or ignore it on purpose | TravisRoad |
 | 60 | sync.Once is the best way to do things once |   smallnest       | 
-| 61 |  |           | 
+| 61 | Making a Type with Built-In Locking (sync.Mutex embedding) |  richzw  | 
 | 62 |  |           | 
 | 63 | Avoid time.Sleep(), it's not context-aware and can't be interrupted | richzw    | 
 | 64 |  |           | 
