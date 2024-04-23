@@ -106,7 +106,7 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 50 | Make Structs Non-comparable. | smallnest |
 | 51 |  |           |
 | 52 | Adjusting GOMAXPROCS for Containerized Env (Kubernetes, Docker, etc.) | baxiang |
-| 53 |  |           |
+| 53 | Enums start from 1 for categorization and 0 for default cases | baxiang  |
 | 54 |  |           |
 | 55 |  |           |
 | 56 | Simplify interfaces and only ask for what you really need  | cannian1 |
