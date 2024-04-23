@@ -21,6 +21,7 @@
 - [Tip #23 省略 getter 方法的'Get'前缀](./023.md)
 - [Tip #27 原地过滤](./027.md)
 - [Tip #28 将多个if-else语句转换为switch](./028.md)
+- [Tip #29 避免使用 context.Background，使你的协程具备承诺性](./029.md)
 - [Tip #30 使用context.WithoutCancel()继续上下文操作](./030.md)
 - [Tip #38 使用 fmt.Errorf 使你的错误信息清晰明了，不要让它们过于赤裸](./038.md)
 - [Tip #40 在使用defer时处理错误以防止静默失败](./040.md)

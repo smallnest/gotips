@@ -57,61 +57,61 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 1 | Measure the execution time of a function in just one line of code. | smallnest |
 | 2 | Multistage defer | smallnest |
 | 3 | Pre-allocate slices for performance | smallnest |
-| 4 | Parse an Array into a Slice | smallnest | 
-| 5 | Method Chaining | smallnest | 
-| 6 | Underscore Import | icyfire   | 
-| 7 |  作者已删除|           | 
-| 8 | Wrapping Errors | icyfire   | 
-| 9 | Compile-Time Interface Verification | icyfire   | 
-| 10 | Avoid Naked Parameters  | smallnest | 
-| 11 | Numeric separators | icyfire   | 
-| 12 | Avoid using math/rand, use crypto/rand for keys instead | icyfire   | 
-| 13 | Empty slice or, even better, NIL SLICE | icyfire   | 
-| 14 | Error messages should not be capitalized or end with punctuation | icyfire   | 
-| 15 |  |           | 
-| 16 |  Don't Return -1 or nil to Indicate Error. |  kagaya85  | 
-| 17 |  |           | 
-| 18 |  |           | 
-| 19 |  |           | 
-| 20 | Pass values, not pointers |   smallnest    | 
-| 21 | Prefer using a pointer receiver when defining methods | QingyaFan | 
-| 22 |  |           | 
-| 23 | Skip the 'Get' prefix for getters | HBUzxl | 
-| 24 |  |           | 
-| 25 |  |           | 
-| 26 |  |           | 
-| 27 | Filter without any allocation | devin7788 | 
-| 28 | Converting multiple if-else statements into switch cases |  zzzpppy | 
-| 29 |  |           | 
-| 30 | 使用context.WithoutCancel()继续上下文操作 | smallnest | 
-| 31 |  |           | 
-| 32 |  |           | 
-| 33 |  |           | 
-| 34 |  |           | 
-| 35 |  |           | 
-| 36 |  |           | 
-| 37 |  |           | 
-| 38 | Make your errors clear with fmt.Errorf, don't just leave them bare | smallnest | 
-| 39 |  |           | 
-| 40 | Handle errors while using defer to prevent silent failures | smallnest | 
-| 41 |  |           | 
-| 42 |  |           | 
-| 43 | Gracefully Shut Down Your Application |    LinPr       | 
-| 44 |  Intentionally Stop with Must Functions | syjs10    | 
-| 45 | Always Manage Your Goroutine Lifetime. | stonemax | 
-| 46 |  |           | 
-| 47 | Table-driven tests, subtests, and parallel tests | devin7788 | 
-| 48 |  |           | 
-| 49 |  |           | 
-| 50 | Make Structs Non-comparable. | smallnest | 
-| 51 |  |           | 
-| 52 |  |           | 
-| 53 |  |           | 
-| 54 |  |           | 
-| 55 | Prevent Struct Unkeyed Literals by Using an Empty Field  | cannian1 | 
-| 56 | Simplify interfaces and only ask for what you really need  | cannian1 | 
-| 57 |  |           | 
-| 58 | Keep the mutex close to the data it's protecting | richzw  | 
+| 4 | Parse an Array into a Slice | smallnest |
+| 5 | Method Chaining | smallnest |
+| 6 | Underscore Import | icyfire   |
+| 7 |  作者已删除|           |
+| 8 | Wrapping Errors | icyfire   |
+| 9 | Compile-Time Interface Verification | icyfire   |
+| 10 | Avoid Naked Parameters  | smallnest |
+| 11 | Numeric separators | icyfire   |
+| 12 | Avoid using math/rand, use crypto/rand for keys instead | icyfire   |
+| 13 | Empty slice or, even better, NIL SLICE | icyfire   |
+| 14 | Error messages should not be capitalized or end with punctuation | icyfire   |
+| 15 |  |           |
+| 16 |  Don't Return -1 or nil to Indicate Error. |  kagaya85  |
+| 17 |  |           |
+| 18 |  |           |
+| 19 |  |           |
+| 20 | Pass values, not pointers | smallnest |
+| 21 |  |           |
+| 22 |  |           |
+| 23 | Skip the 'Get' prefix for getters | HBUzxl |
+| 24 |  |           |
+| 25 |  |           |
+| 26 |  |           |
+| 27 | Filter without any allocation | devin7788 |
+| 28 | Converting multiple if-else statements into switch cases |  zzzpppy |
+| 29 | Avoid context.Background(), make your goroutines promisable. | stonemax |
+| 30 | 使用context.WithoutCancel()继续上下文操作 | smallnest |
+| 31 |  |           |
+| 32 |  |           |
+| 33 |  |           |
+| 34 |  |           |
+| 35 |  |           |
+| 36 |  |           |
+| 37 |  |           |
+| 38 | Make your errors clear with fmt.Errorf, don't just leave them bare | smallnest |
+| 39 |  |           |
+| 40 | Handle errors while using defer to prevent silent failures | smallnest |
+| 41 |  |           |
+| 42 |  |           |
+| 43 | Gracefully Shut Down Your Application |    LinPr       |
+| 44 |  Intentionally Stop with Must Functions | syjs10    |
+| 45 | Always Manage Your Goroutine Lifetime. | stonemax |
+| 46 | Avoid using break in switch cases, except when paired with labels | baxiang |
+| 47 | Table-driven tests, subtests, and parallel tests | devin7788 |
+| 48 |  |           |
+| 49 |  |           |
+| 50 | Make Structs Non-comparable. | smallnest |
+| 51 |  |           |
+| 52 | Adjusting GOMAXPROCS for Containerized Env (Kubernetes, Docker, etc.) | baxiang |
+| 53 |  |           |
+| 54 |  |           |
+| 55 |  |           |
+| 56 | Simplify interfaces and only ask for what you really need  | cannian1 |
+| 57 |  |           |
+| 58 |  |           |
 | 59 | If a parameter isn't needed, either drop it or ignore it on purpose | TravisRoad |
 | 60 | sync.Once is the best way to do things once |   smallnest       |
 | 61 | Making a Type with Built-In Locking (sync.Mutex embedding) |  richzw  |
