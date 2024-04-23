@@ -78,7 +78,7 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 22 |  |           |
 | 23 | Skip the 'Get' prefix for getters | HBUzxl |
 | 24 |  |           |
-| 25 |  |           |
+| 25 | Prefer 'chan struct{}' over 'chan bool' for signaling between goroutines | justlorain |
 | 26 |  |           |
 | 27 | Filter without any allocation | devin7788 |
 | 28 | Converting multiple if-else statements into switch cases |  zzzpppy |
