@@ -86,7 +86,7 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 30 | 使用context.WithoutCancel()继续上下文操作 | smallnest |
 | 31 |  |           |
 | 32 |  |           |
-| 33 |  |           |
+| 33 | Just... Don’t Panic() |    baxiang       |
 | 34 |  |           |
 | 35 |  |           |
 | 36 |  |           |
