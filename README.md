@@ -113,17 +113,17 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 57 |  |           | 
 | 58 | Keep the mutex close to the data it's protecting | richzw  | 
 | 59 | If a parameter isn't needed, either drop it or ignore it on purpose | TravisRoad |
-| 60 | sync.Once is the best way to do things once |   smallnest       | 
-| 61 | Making a Type with Built-In Locking (sync.Mutex embedding) |  richzw  | 
-| 62 |  |           | 
-| 63 | Avoid time.Sleep(), it's not context-aware and can't be interrupted | richzw    | 
-| 64 | Make main() clean and testable | syjs10    | 
-| 65 | Returning Pointers Made Easy with Generics | miniLCT   | 
-| 66 | Simplify Your Error Messages in fmt.Errorf | smallnest | 
-| 67 | How to deal with long function signatures | richzw    | 
-| 68 | Use the deadcode tool to find and remove unused functions | richzw    | 
-| 69 | Manage multiple goroutines with errgroup | richzw    | 
-| 70 |  Implement a context-aware sleep function | hxzhouh   | 
+| 60 | sync.Once is the best way to do things once |   smallnest       |
+| 61 | Making a Type with Built-In Locking (sync.Mutex embedding) |  richzw  |
+| 62 | context.Value is not our friend | hawkinggg |
+| 63 | Avoid time.Sleep(), it's not context-aware and can't be interrupted | richzw    |
+| 64 |  |           |
+| 65 | Returning Pointers Made Easy with Generics | miniLCT   |
+| 66 | Simplify Your Error Messages in fmt.Errorf | smallnest |
+| 67 | How to deal with long function signatures | richzw    |
+| 68 | Use the deadcode tool to find and remove unused functions | richzw    |
+| 69 | Manage multiple goroutines with errgroup | richzw    |
+| 70 |  Implement a context-aware sleep function | hxzhouh   |
 | 71 | sync.Pool, make it typed-safe with generics | QingyaFan |
 | 72 |  Case-Insensitive string comparison with strings.EqualFold | syjs10    |
 | 73 |   Implement String() for enum with the stringer tool | syjs10    |
