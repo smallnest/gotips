@@ -17,6 +17,7 @@
 - [Tip #16 不要通过返回 -1 或者 nil 来表示错误](./016.md)
 - [Tip #20 传递值，而不是指针](./020.md)
 - [Tip #23 省略 getter 方法的'Get'前缀](./023.md)]
+- [Tip #25 在 goroutines 之间进行信号传递时，使用 'chan struct{}' 而不是 'chan bool'](./025.md)
 - [Tip #27 原地过滤](./027.md)
 - [Tip #28 将多个if-else语句转换为switch](./028.md)
 - [Tip #30 使用context.WithoutCancel()继续上下文操作](./030.md)
