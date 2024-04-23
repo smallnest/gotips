@@ -135,6 +135,24 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "baxiang",
+      "name": "羊羽",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2994323?v=4",
+      "profile": "http://yuque.com/baxiang",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "zhubiaook",
+      "name": "zhubiaook",
+      "avatar_url": "https://avatars.githubusercontent.com/u/30363122?v=4",
+      "profile": "https://github.com/zhubiaook",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
