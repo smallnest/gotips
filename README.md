@@ -111,7 +111,7 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 55 | Prevent Struct Unkeyed Literals by Using an Empty Field  | cannian1 | 
 | 56 | Simplify interfaces and only ask for what you really need  | cannian1 | 
 | 57 |  |           | 
-| 58 |  |           | 
+| 58 | Keep the mutex close to the data it's protecting | richzw  | 
 | 59 | If a parameter isn't needed, either drop it or ignore it on purpose | TravisRoad |
 | 60 | sync.Once is the best way to do things once |   smallnest       | 
 | 61 | Making a Type with Built-In Locking (sync.Mutex embedding) |  richzw  | 
