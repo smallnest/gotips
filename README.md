@@ -73,8 +73,7 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 17 |  |           | 
 | 18 |  |           | 
 | 19 |  |           | 
-| 20 | Pass values, not pointers | smallnest | 
-| 21 |  |           | 
+| 20 | Pass values, not pointers |   smallnest    | 
 | 22 |  |           | 
 | 23 | Skip the 'Get' prefix for getters | HBUzxl | 
 | 24 |  |           | 
