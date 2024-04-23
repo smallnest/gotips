@@ -108,7 +108,7 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 52 |  |           | 
 | 53 |  |           | 
 | 54 |  |           | 
-| 55 |  |           | 
+| 55 | Prevent Struct Unkeyed Literals by Using an Empty Field  | cannian1 | 
 | 56 | Simplify interfaces and only ask for what you really need  | cannian1 | 
 | 57 |  |           | 
 | 58 |  |           | 
