@@ -1,6 +1,6 @@
 # gotips Go语言编程技巧
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-14-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-15-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 Go tips from [Phuong Le](https://twitter.com/func25). 
 
@@ -52,7 +52,7 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 
 ## 翻译任务认领表格
 
-| tip序号 | 标题 | 译者        | 
+| tip序号 | 标题 | 译者        |
 | --- | --- |-----------|
 | 1 | Measure the execution time of a function in just one line of code. | smallnest |
 | 2 | Multistage defer | smallnest |
@@ -113,47 +113,47 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 57 |  |           | 
 | 58 |  |           | 
 | 59 | If a parameter isn't needed, either drop it or ignore it on purpose | TravisRoad |
-| 60 | sync.Once is the best way to do things once |   smallnest       | 
-| 61 | Making a Type with Built-In Locking (sync.Mutex embedding) |  richzw  | 
-| 62 |  |           | 
-| 63 | Avoid time.Sleep(), it's not context-aware and can't be interrupted | richzw    | 
-| 64 |  |           | 
-| 65 | Returning Pointers Made Easy with Generics | miniLCT   | 
-| 66 | Simplify Your Error Messages in fmt.Errorf | smallnest | 
-| 67 | How to deal with long function signatures | richzw    | 
-| 68 | Use the deadcode tool to find and remove unused functions | richzw    | 
-| 69 | Manage multiple goroutines with errgroup | richzw    | 
-| 70 |  Implement a context-aware sleep function | hxzhouh   | 
+| 60 | sync.Once is the best way to do things once |   smallnest       |
+| 61 | Making a Type with Built-In Locking (sync.Mutex embedding) |  richzw  |
+| 62 |  |           |
+| 63 | Avoid time.Sleep(), it's not context-aware and can't be interrupted | richzw    |
+| 64 |  |           |
+| 65 | Returning Pointers Made Easy with Generics | miniLCT   |
+| 66 | Simplify Your Error Messages in fmt.Errorf | smallnest |
+| 67 | How to deal with long function signatures | richzw    |
+| 68 | Use the deadcode tool to find and remove unused functions | richzw    |
+| 69 | Manage multiple goroutines with errgroup | richzw    |
+| 70 |  Implement a context-aware sleep function | hxzhouh   |
 | 71 | sync.Pool, make it typed-safe with generics | QingyaFan |
-| 72 |  Case-Insensitive string comparison with strings.EqualFold | syjs10    | 
-| 73 |   Implement String() for enum with the stringer tool | syjs10    | 
-| 74 |  Make time.Duration clear and easy to understand | richzw    | 
-| 75 | Optimize multiple calls with singleflight | hxzhouh   | 
-| 76 |  Result forwarding in function calls | syjs10    | 
-| 77 |  Buffered channels as semaphores to limit goroutine execution | QingyaFan | 
+| 72 |  Case-Insensitive string comparison with strings.EqualFold | syjs10    |
+| 73 |   Implement String() for enum with the stringer tool | syjs10    |
+| 74 |  Make time.Duration clear and easy to understand | richzw    |
+| 75 | Optimize multiple calls with singleflight | hxzhouh   |
+| 76 |  Result forwarding in function calls | syjs10    |
+| 77 |  Buffered channels as semaphores to limit goroutine execution | QingyaFan |
 | 78 | Non-blocking channel send trick | hxzhouh   |
-| 79 |  |           | 
-| 80 |  |           | 
-| 81 |  |           | 
-| 82 |  |           | 
-| 83 |  |           | 
-| 84 |  |           | 
-| 85 |  |           | 
-| 86 |  |           | 
-| 87 |  |           | 
-| 88 |  |           | 
-| 89 |  |           | 
-| 90 |  |           | 
-| 91 |  |           | 
-| 92 |  |           | 
-| 93 |  |           | 
-| 94 |  |           | 
-| 95 |  |           | 
-| 96 |  |           | 
-| 97 |  |           | 
-| 98 |  |           | 
-| 99 |  |           | 
-| 100 |  |           | 
+| 79 |  |           |
+| 80 |  |           |
+| 81 |  |           |
+| 82 |  |           |
+| 83 |  |           |
+| 84 |  |           |
+| 85 |  |           |
+| 86 |  |           |
+| 87 |  |           |
+| 88 |  |           |
+| 89 |  |           |
+| 90 |  |           |
+| 91 |  |           |
+| 92 |  |           |
+| 93 |  |           |
+| 94 |  |           |
+| 95 |  |           |
+| 96 |  |           |
+| 97 |  |           |
+| 98 |  |           |
+| 99 |  |           |
+| 100 |  |           |
 
 ## 生成文档
 
@@ -196,6 +196,9 @@ http://localhost:3000
       <td align="center" valign="top" width="14.28%"><a href="http://blog.kagaya.fun"><img src="https://avatars.githubusercontent.com/u/28755005?v=4?s=100" width="100px;" alt="Kagaya"/><br /><sub><b>Kagaya</b></sub></a><br /><a href="https://github.com/smallnest/gotips/commits?author=kagaya85" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/stonemax"><img src="https://avatars.githubusercontent.com/u/4516172?v=4?s=100" width="100px;" alt="Zhang Jinlong"/><br /><sub><b>Zhang Jinlong</b></sub></a><br /><a href="https://github.com/smallnest/gotips/commits?author=stonemax" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/HBUzxl"><img src="https://avatars.githubusercontent.com/u/86550622?v=4?s=100" width="100px;" alt="HBUzxl"/><br /><sub><b>HBUzxl</b></sub></a><br /><a href="https://github.com/smallnest/gotips/commits?author=HBUzxl" title="Code">💻</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="http://yuque.com/baxiang"><img src="https://avatars.githubusercontent.com/u/2994323?v=4?s=100" width="100px;" alt="羊羽"/><br /><sub><b>羊羽</b></sub></a><br /><a href="https://github.com/smallnest/gotips/commits?author=baxiang" title="Code">💻</a></td>
     </tr>
   </tbody>
   <tfoot>
