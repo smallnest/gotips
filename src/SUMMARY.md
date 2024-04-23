@@ -16,7 +16,7 @@
 - [Tip #14 错误信息不要大写或者以标点结尾](./014.md)
 - [Tip #16 不要通过返回 -1 或者 nil 来表示错误](./016.md)
 - [Tip #20 传递值，而不是指针](./020.md)
-- [Tip #23 省略 getter 方法的'Get'前缀](./023.md)]
+- [Tip #23 省略 getter 方法的'Get'前缀](./023.md)
 - [Tip #27 原地过滤](./027.md)
 - [Tip #28 将多个if-else语句转换为switch](./028.md)
 - [Tip #30 使用context.WithoutCancel()继续上下文操作](./030.md)
@@ -33,6 +33,7 @@
 - [Tip #59 如果不需要使用某个参数，删除它或是显式地忽略它](./059.md)
 - [Tip #60 sync.Once是执行单次操作的最佳方式](./060.md)
 - [Tip #61 使用内置锁的类型（sync.Mutex嵌入）](./061.md)
+- [Tip #62 context.Value不是我们的朋友](./062.md)
 - [Tip #71 用泛型让 sync.Pool 类型安全](./071.md)
 - [Tip #63 避免使用time.Sleep()，它不能被context感知且无法被中断](./063.md)
 - [Tip #66 在fmt.Errorf中简化你的错误信息](./066.md)
