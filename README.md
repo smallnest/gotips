@@ -73,9 +73,9 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 17 |  |           | 
 | 18 |  |           | 
 | 19 |  |           | 
-| 20 | Pass values, not pointers | smallnest | 
-| 21 |  |           | 
-| 22 | Simplify function signatures with structs or variadic options | zhubiaook | 
+| 20 | Pass values, not pointers |   smallnest    | 
+| 21 | Prefer using a pointer receiver when defining methods | QingyaFan | 
+| 22 |  |           | 
 | 23 | Skip the 'Get' prefix for getters | HBUzxl | 
 | 24 |  |           | 
 | 25 |  |           | 
