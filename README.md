@@ -74,7 +74,7 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 18 |  |            |
 | 19 |  |            |
 | 20 | Pass values, not pointers | smallnest  |
-| 21 |  |            |
+| 21 | Prefer using a pointer receiver when defining methods |     QingyaFan       |
 | 22 | Simplify function signatures with structs or variadic options | zhubiaook  |
 | 23 | Skip the 'Get' prefix for getters | HBUzxl     |
 | 24 |  |            |
@@ -95,7 +95,7 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 39 | Avoid defer in loops, or your memory might blow up | devin7788 |
 | 40 | Handle errors while using defer to prevent silent failures | smallnest |
 | 41 | Sort your fields in your struct from largest to smallest | justlorain |
-| 42 |  |           |
+| 42 | Single Touch Error Handling, Less Noise. | zhubiaook |
 | 43 | Gracefully Shut Down Your Application |    LinPr       |
 | 44 |  Intentionally Stop with Must Functions | syjs10    |
 | 45 | Always Manage Your Goroutine Lifetime. | stonemax |
