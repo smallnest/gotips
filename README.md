@@ -1,6 +1,6 @@
 # gotips Go语言编程技巧
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-17-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-18-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 Go tips from [Phuong Le](https://twitter.com/func25). 
 
@@ -201,6 +201,7 @@ http://localhost:3000
       <td align="center" valign="top" width="14.28%"><a href="http://yuque.com/baxiang"><img src="https://avatars.githubusercontent.com/u/2994323?v=4?s=100" width="100px;" alt="羊羽"/><br /><sub><b>羊羽</b></sub></a><br /><a href="https://github.com/smallnest/gotips/commits?author=baxiang" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/zhubiaook"><img src="https://avatars.githubusercontent.com/u/30363122?v=4?s=100" width="100px;" alt="zhubiaook"/><br /><sub><b>zhubiaook</b></sub></a><br /><a href="https://github.com/smallnest/gotips/commits?author=zhubiaook" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://logi.im"><img src="https://avatars.githubusercontent.com/u/18008498?v=4?s=100" width="100px;" alt="LOGI"/><br /><sub><b>LOGI</b></sub></a><br /><a href="https://github.com/smallnest/gotips/commits?author=vcheckzen" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/justlorain"><img src="https://avatars.githubusercontent.com/u/87760338?v=4?s=100" width="100px;" alt="Lorain"/><br /><sub><b>Lorain</b></sub></a><br /><a href="https://github.com/smallnest/gotips/commits?author=justlorain" title="Code">💻</a></td>
     </tr>
   </tbody>
   <tfoot>
