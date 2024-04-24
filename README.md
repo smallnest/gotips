@@ -94,7 +94,7 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 38 | Make your errors clear with fmt.Errorf, don't just leave them bare | smallnest |
 | 39 |  |           |
 | 40 | Handle errors while using defer to prevent silent failures | smallnest |
-| 41 |  |           |
+| 41 | Sort your fields in your struct from largest to smallest | justlorain |
 | 42 |  |           |
 | 43 | Gracefully Shut Down Your Application |    LinPr       |
 | 44 |  Intentionally Stop with Must Functions | syjs10    |
