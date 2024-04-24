@@ -74,7 +74,7 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 18 |  |            |
 | 19 |  |            |
 | 20 | Pass values, not pointers | smallnest  |
-| 21 |  |            |
+| 21 | Prefer using a pointer receiver when defining methods |     QingyaFan       |
 | 22 | Simplify function signatures with structs or variadic options | zhubiaook  |
 | 23 | Skip the 'Get' prefix for getters | HBUzxl     |
 | 24 |  |            |
@@ -88,14 +88,14 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 32 |  |           |
 | 33 | Just... Don’t Panic() |    baxiang       |
 | 34 |  |           |
-| 35 |  |           |
+| 35 | Prefer strconv over fmt for converting to/from string |     jjjjjim      |
 | 36 |  |           |
 | 37 |  |           |
 | 38 | Make your errors clear with fmt.Errorf, don't just leave them bare | smallnest |
 | 39 | Avoid defer in loops, or your memory might blow up | devin7788 |
 | 40 | Handle errors while using defer to prevent silent failures | smallnest |
 | 41 | Sort your fields in your struct from largest to smallest | justlorain |
-| 42 |  |           |
+| 42 | Single Touch Error Handling, Less Noise. | zhubiaook |
 | 43 | Gracefully Shut Down Your Application |    LinPr       |
 | 44 |  Intentionally Stop with Must Functions | syjs10    |
 | 45 | Always Manage Your Goroutine Lifetime. | stonemax |
@@ -202,6 +202,7 @@ http://localhost:3000
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/zhubiaook"><img src="https://avatars.githubusercontent.com/u/30363122?v=4?s=100" width="100px;" alt="zhubiaook"/><br /><sub><b>zhubiaook</b></sub></a><br /><a href="https://github.com/smallnest/gotips/commits?author=zhubiaook" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://logi.im"><img src="https://avatars.githubusercontent.com/u/18008498?v=4?s=100" width="100px;" alt="LOGI"/><br /><sub><b>LOGI</b></sub></a><br /><a href="https://github.com/smallnest/gotips/commits?author=vcheckzen" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/justlorain"><img src="https://avatars.githubusercontent.com/u/87760338?v=4?s=100" width="100px;" alt="Lorain"/><br /><sub><b>Lorain</b></sub></a><br /><a href="https://github.com/smallnest/gotips/commits?author=justlorain" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/jjjjjim"><img src="https://avatars.githubusercontent.com/u/87107430?v=4?s=100" width="100px;" alt="jjjjjim"/><br /><sub><b>jjjjjim</b></sub></a><br /><a href="https://github.com/smallnest/gotips/commits?author=jjjjjim" title="Code">💻</a></td>
     </tr>
   </tbody>
   <tfoot>
