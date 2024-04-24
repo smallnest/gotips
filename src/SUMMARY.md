@@ -26,6 +26,7 @@
 - [Tip #30 使用context.WithoutCancel()继续上下文操作](./030.md)
 - [Tip #31 使用跳转标签让break和continue语句更简洁](./031.md)
 - [Tip #33 尽量...不要使用panic()](./033.md)
+- [Tip #35 转换字符串时优先使用 strconv 而非 fmt](./035.md)
 - [Tip #38 使用 fmt.Errorf 使你的错误信息清晰明了，不要让它们过于赤裸](./038.md)
 - [Tip #39 避免在循环中使用defer，否则可能会导致内存溢出](./039.md)
 - [Tip #40 在使用defer时处理错误以防止静默失败](./040.md)
