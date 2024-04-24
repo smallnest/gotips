@@ -108,7 +108,7 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 52 | Adjusting GOMAXPROCS for Containerized Env (Kubernetes, Docker, etc.) | baxiang |
 | 53 | Enums start from 1 for categorization and 0 for default cases | baxiang  |
 | 54 |  |           |
-| 55 |  |           |
+| 55 | Prevent Struct Unkeyed Literals by Using an Empty Field  | cannian1 |
 | 56 | Simplify interfaces and only ask for what you really need  | cannian1 |
 | 57 |  |           |
 | 58 | Keep the mutex close to the data it's protecting |  richzw  |
