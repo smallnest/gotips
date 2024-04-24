@@ -153,6 +153,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "vcheckzen",
+      "name": "LOGI",
+      "avatar_url": "https://avatars.githubusercontent.com/u/18008498?v=4",
+      "profile": "https://logi.im",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
