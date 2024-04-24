@@ -101,8 +101,8 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 45 | Always Manage Your Goroutine Lifetime. | stonemax |
 | 46 | Avoid using break in switch cases, except when paired with labels | baxiang |
 | 47 | Table-driven tests, subtests, and parallel tests | devin7788 |
-| 48 |  |           |
-| 49 |  |           |
+| 48 | Avoid Global Variables, Especially Mutable Ones. | vcheckzen          |
+| 49 | Give the Caller the Right to Make Decisions | vcheckzen          |
 | 50 | Make Structs Non-comparable. | smallnest |
 | 51 |  |           |
 | 52 | Adjusting GOMAXPROCS for Containerized Env (Kubernetes, Docker, etc.) | baxiang |
