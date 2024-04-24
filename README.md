@@ -92,7 +92,7 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 36 |  |           |
 | 37 |  |           |
 | 38 | Make your errors clear with fmt.Errorf, don't just leave them bare | smallnest |
-| 39 |  |           |
+| 39 | Avoid defer in loops, or your memory might blow up | devin7788 |
 | 40 | Handle errors while using defer to prevent silent failures | smallnest |
 | 41 |  |           |
 | 42 |  |           |
