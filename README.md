@@ -11,7 +11,7 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 <img src="src/images/wechat.png" width="200px">
 
 
-**翻译进度:**： 37/78 = 47.4%
+**翻译进度:**： 68/78 = 87.18%
 
 ## 翻译规范
 
@@ -68,11 +68,11 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 12 | Avoid using math/rand, use crypto/rand for keys instead | icyfire    |
 | 13 | Empty slice or, even better, NIL SLICE | icyfire    |
 | 14 | Error messages should not be capitalized or end with punctuation | icyfire    |
-| 15 |  |            |
+| 15 | 已认领 |            |
 | 16 |  Don't Return -1 or nil to Indicate Error. | kagaya85   |
 | 17 | Understanding "Return fast, return early" to avoid nested code | icyfire    |
-| 18 |  |            |
-| 19 |  |            |
+| 18 | 已认领 |            |
+| 19 | 已认领 |            |
 | 20 | Pass values, not pointers | smallnest  |
 | 21 | Prefer using a pointer receiver when defining methods |     QingyaFan       |
 | 22 | Simplify function signatures with structs or variadic options | zhubiaook  |
@@ -85,12 +85,12 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 29 | Avoid context.Background(), make your goroutines promisable. | stonemax |
 | 30 | 使用context.WithoutCancel()继续上下文操作 | smallnest |
 | 31 | Loop labels for cleaner breaks and continues | zhubiaook |
-| 32 |  |           |
+| 32 | 已认领 |           |
 | 33 | Just... Don’t Panic() |    baxiang       |
 | 34 |  |           |
 | 35 | Prefer strconv over fmt for converting to/from string |     jjjjjim      |
 | 36 |  |           |
-| 37 |  |           |
+| 37 | 已认领 |           |
 | 38 | Make your errors clear with fmt.Errorf, don't just leave them bare | smallnest |
 | 39 | Avoid defer in loops, or your memory might blow up | devin7788 |
 | 40 | Handle errors while using defer to prevent silent failures | smallnest |
@@ -110,7 +110,7 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 54 | Only define errors (var Err = errors.New) when it's necessary for your client | lylex |
 | 55 | Prevent Struct Unkeyed Literals by Using an Empty Field  | cannian1 |
 | 56 | Simplify interfaces and only ask for what you really need  | cannian1 |
-| 57 |  |           |
+| 57 | 已认领 |           |
 | 58 | Keep the mutex close to the data it's protecting |  richzw  |
 | 59 | If a parameter isn't needed, either drop it or ignore it on purpose | TravisRoad |
 | 60 | sync.Once is the best way to do things once | smallnest  |
