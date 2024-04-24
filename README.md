@@ -71,7 +71,7 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 15 | 已认领 |            |
 | 16 |  Don't Return -1 or nil to Indicate Error. | kagaya85   |
 | 17 | Understanding "Return fast, return early" to avoid nested code | icyfire    |
-| 18 | 已认领 |            |
+| 18 |  Define interfaces in the consumer package, not the producer | syjs10        |
 | 19 | 已认领 |            |
 | 20 | Pass values, not pointers | smallnest  |
 | 21 | Prefer using a pointer receiver when defining methods |     QingyaFan       |
