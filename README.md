@@ -86,11 +86,11 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 30 | 使用context.WithoutCancel()继续上下文操作 | smallnest |
 | 31 | Loop labels for cleaner breaks and continues | zhubiaook |
 | 32 | 已认领 |           |
-| 33 | Just... Don’t Panic() |    baxiang       |
+| 33 | Just... Don’t Panic() |  baxiang |
 | 34 |  |           |
 | 35 | Prefer strconv over fmt for converting to/from string |     jjjjjim      |
-| 36 |  |           |
-| 37 | 已认领 |           |
+| 36 |  |    |
+| 37 | Using Unexported Empty Struct as Context Key | baxiang |
 | 38 | Make your errors clear with fmt.Errorf, don't just leave them bare | smallnest |
 | 39 | Avoid defer in loops, or your memory might blow up | devin7788 |
 | 40 | Handle errors while using defer to prevent silent failures | smallnest |
@@ -110,7 +110,7 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 54 | Only define errors (var Err = errors.New) when it's necessary for your client | lylex |
 | 55 | Prevent Struct Unkeyed Literals by Using an Empty Field  | cannian1 |
 | 56 | Simplify interfaces and only ask for what you really need  | cannian1 |
-| 57 | 已认领 |           |
+| 57 | Golang Tip #57: Flag Enums in Go |  baxiang         |
 | 58 | Keep the mutex close to the data it's protecting |  richzw  |
 | 59 | If a parameter isn't needed, either drop it or ignore it on purpose | TravisRoad |
 | 60 | sync.Once is the best way to do things once | smallnest  |
