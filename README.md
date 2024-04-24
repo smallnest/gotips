@@ -77,7 +77,7 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 21 | Prefer using a pointer receiver when defining methods |     QingyaFan       |
 | 22 | Simplify function signatures with structs or variadic options | zhubiaook  |
 | 23 | Skip the 'Get' prefix for getters | HBUzxl     |
-| 24 |  |            |
+| 24 | Avoid repetition in naming |   smallnest         |
 | 25 | Prefer 'chan struct{}' over 'chan bool' for signaling between goroutines | justlorain |
 | 26 |  |           |
 | 27 | Filter without any allocation | devin7788 |
