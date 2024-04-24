@@ -86,11 +86,11 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 30 | 使用context.WithoutCancel()继续上下文操作 | smallnest |
 | 31 | Loop labels for cleaner breaks and continues | zhubiaook |
 | 32 | 已认领 |           |
-| 33 | Just... Don’t Panic() |    baxiang       |
+| 33 | Just... Don’t Panic() |  baxiang |
 | 34 |  |           |
 | 35 | Prefer strconv over fmt for converting to/from string |     jjjjjim      |
-| 36 |  |           |
-| 37 | 已认领 |           |
+| 36 |  |    |
+| 37 | Using Unexported Empty Struct as Context Key | baxiang |
 | 38 | Make your errors clear with fmt.Errorf, don't just leave them bare | smallnest |
 | 39 | Avoid defer in loops, or your memory might blow up | devin7788 |
 | 40 | Handle errors while using defer to prevent silent failures | smallnest |
