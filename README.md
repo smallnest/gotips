@@ -75,7 +75,7 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 19 |  |           |
 | 20 | Pass values, not pointers | smallnest |
 | 21 |  |           |
-| 22 |  |           |
+| 22 | Simplify function signatures with structs or variadic options | zhubiaook |
 | 23 | Skip the 'Get' prefix for getters | HBUzxl |
 | 24 |  |           |
 | 25 | Prefer 'chan struct{}' over 'chan bool' for signaling between goroutines | justlorain |
@@ -84,7 +84,7 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 28 | Converting multiple if-else statements into switch cases |  zzzpppy |
 | 29 | Avoid context.Background(), make your goroutines promisable. | stonemax |
 | 30 | 使用context.WithoutCancel()继续上下文操作 | smallnest |
-| 31 |  |           |
+| 31 | Loop labels for cleaner breaks and continues | zhubiaook |
 | 32 |  |           |
 | 33 | Just... Don’t Panic() |    baxiang       |
 | 34 |  |           |
