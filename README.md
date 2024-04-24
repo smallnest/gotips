@@ -104,7 +104,7 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 48 | Avoid Global Variables, Especially Mutable Ones. | vcheckzen          |
 | 49 | Give the Caller the Right to Make Decisions | vcheckzen          |
 | 50 | Make Structs Non-comparable. | smallnest |
-| 51 |  |           |
+| 51 | Avoid using init() |  richzw  |
 | 52 | Adjusting GOMAXPROCS for Containerized Env (Kubernetes, Docker, etc.) | baxiang |
 | 53 | Enums start from 1 for categorization and 0 for default cases | baxiang  |
 | 54 |  |           |
