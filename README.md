@@ -79,39 +79,39 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 23 | Skip the 'Get' prefix for getters | HBUzxl     |
 | 24 |  |            |
 | 25 | Prefer 'chan struct{}' over 'chan bool' for signaling between goroutines | justlorain |
-| 26 |  |            |
-| 27 | Filter without any allocation | devin7788  |
-| 28 | Converting multiple if-else statements into switch cases | zzzpppy    |
-| 29 | Avoid context.Background(), make your goroutines promisable. | stonemax   |
-| 30 | 使用context.WithoutCancel()继续上下文操作 | smallnest  |
-| 31 | Loop labels for cleaner breaks and continues | zhubiaook  |
-| 32 |  |            |
-| 33 | Just... Don’t Panic() | baxiang    |
-| 34 |  |            |
-| 35 |  |            |
-| 36 |  |            |
-| 37 |  |            |
-| 38 | Make your errors clear with fmt.Errorf, don't just leave them bare | smallnest  |
-| 39 | Avoid defer in loops, or your memory might blow up | devin7788  |
-| 40 | Handle errors while using defer to prevent silent failures | smallnest  |
-| 41 |  |            |
-| 42 |  |            |
-| 43 | Gracefully Shut Down Your Application | LinPr      |
-| 44 |  Intentionally Stop with Must Functions | syjs10     |
-| 45 | Always Manage Your Goroutine Lifetime. | stonemax   |
-| 46 | Avoid using break in switch cases, except when paired with labels | baxiang    |
-| 47 | Table-driven tests, subtests, and parallel tests | devin7788  |
-| 48 | Avoid Global Variables, Especially Mutable Ones. | vcheckzen  |
-| 49 | Give the Caller the Right to Make Decisions | vcheckzen  |
-| 50 | Make Structs Non-comparable. | smallnest  |
-| 51 |  |            |
-| 52 | Adjusting GOMAXPROCS for Containerized Env (Kubernetes, Docker, etc.) | baxiang    |
-| 53 | Enums start from 1 for categorization and 0 for default cases | baxiang    |
-| 54 |  |            |
-| 55 | Prevent Struct Unkeyed Literals by Using an Empty Field  | cannian1   |
-| 56 | Simplify interfaces and only ask for what you really need  | cannian1   |
-| 57 |  |            |
-| 58 | Keep the mutex close to the data it's protecting | richzw     |
+| 26 |  |           |
+| 27 | Filter without any allocation | devin7788 |
+| 28 | Converting multiple if-else statements into switch cases |  zzzpppy |
+| 29 | Avoid context.Background(), make your goroutines promisable. | stonemax |
+| 30 | 使用context.WithoutCancel()继续上下文操作 | smallnest |
+| 31 | Loop labels for cleaner breaks and continues | zhubiaook |
+| 32 |  |           |
+| 33 | Just... Don’t Panic() |    baxiang       |
+| 34 |  |           |
+| 35 |  |           |
+| 36 |  |           |
+| 37 |  |           |
+| 38 | Make your errors clear with fmt.Errorf, don't just leave them bare | smallnest |
+| 39 | Avoid defer in loops, or your memory might blow up | devin7788 |
+| 40 | Handle errors while using defer to prevent silent failures | smallnest |
+| 41 |  |           |
+| 42 |  |           |
+| 43 | Gracefully Shut Down Your Application |    LinPr       |
+| 44 |  Intentionally Stop with Must Functions | syjs10    |
+| 45 | Always Manage Your Goroutine Lifetime. | stonemax |
+| 46 | Avoid using break in switch cases, except when paired with labels | baxiang |
+| 47 | Table-driven tests, subtests, and parallel tests | devin7788 |
+| 48 | Avoid Global Variables, Especially Mutable Ones. | vcheckzen          |
+| 49 | Give the Caller the Right to Make Decisions | vcheckzen          |
+| 50 | Make Structs Non-comparable. | smallnest |
+| 51 | Avoid using init() |  richzw  |
+| 52 | Adjusting GOMAXPROCS for Containerized Env (Kubernetes, Docker, etc.) | baxiang |
+| 53 | Enums start from 1 for categorization and 0 for default cases | baxiang  |
+| 54 |  |           |
+| 55 | Prevent Struct Unkeyed Literals by Using an Empty Field  | cannian1 |
+| 56 | Simplify interfaces and only ask for what you really need  | cannian1 |
+| 57 |  |           |
+| 58 | Keep the mutex close to the data it's protecting |  richzw  |
 | 59 | If a parameter isn't needed, either drop it or ignore it on purpose | TravisRoad |
 | 60 | sync.Once is the best way to do things once | smallnest  |
 | 61 | Making a Type with Built-In Locking (sync.Mutex embedding) | richzw     |
