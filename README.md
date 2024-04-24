@@ -86,7 +86,7 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 30 | 使用context.WithoutCancel()继续上下文操作 | smallnest |
 | 31 | Loop labels for cleaner breaks and continues | zhubiaook |
 | 32 |  |           |
-| 33 |  |           |
+| 33 | Just... Don’t Panic() |    baxiang       |
 | 34 |  |           |
 | 35 |  |           |
 | 36 |  |           |
@@ -106,7 +106,7 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 50 | Make Structs Non-comparable. | smallnest |
 | 51 |  |           |
 | 52 | Adjusting GOMAXPROCS for Containerized Env (Kubernetes, Docker, etc.) | baxiang |
-| 53 |  |           |
+| 53 | Enums start from 1 for categorization and 0 for default cases | baxiang  |
 | 54 |  |           |
 | 55 |  |           |
 | 56 | Simplify interfaces and only ask for what you really need  | cannian1 |
