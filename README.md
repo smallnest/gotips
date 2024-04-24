@@ -88,7 +88,7 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 32 |  |           |
 | 33 | Just... Don’t Panic() |    baxiang       |
 | 34 |  |           |
-| 35 |  |           |
+| 35 | Prefer strconv over fmt for converting to/from string |     jjjjjim      |
 | 36 |  |           |
 | 37 |  |           |
 | 38 | Make your errors clear with fmt.Errorf, don't just leave them bare | smallnest |
@@ -201,6 +201,7 @@ http://localhost:3000
       <td align="center" valign="top" width="14.28%"><a href="http://yuque.com/baxiang"><img src="https://avatars.githubusercontent.com/u/2994323?v=4?s=100" width="100px;" alt="羊羽"/><br /><sub><b>羊羽</b></sub></a><br /><a href="https://github.com/smallnest/gotips/commits?author=baxiang" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/zhubiaook"><img src="https://avatars.githubusercontent.com/u/30363122?v=4?s=100" width="100px;" alt="zhubiaook"/><br /><sub><b>zhubiaook</b></sub></a><br /><a href="https://github.com/smallnest/gotips/commits?author=zhubiaook" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://logi.im"><img src="https://avatars.githubusercontent.com/u/18008498?v=4?s=100" width="100px;" alt="LOGI"/><br /><sub><b>LOGI</b></sub></a><br /><a href="https://github.com/smallnest/gotips/commits?author=vcheckzen" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/jjjjjim"><img src="https://avatars.githubusercontent.com/u/87107430?v=4?s=100" width="100px;" alt="jjjjjim"/><br /><sub><b>jjjjjim</b></sub></a><br /><a href="https://github.com/smallnest/gotips/commits?author=jjjjjim" title="Code">💻</a></td>
     </tr>
   </tbody>
   <tfoot>
