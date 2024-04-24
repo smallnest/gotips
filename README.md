@@ -2,7 +2,7 @@
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-18-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
-Go tips from [Phuong Le](https://twitter.com/func25). 
+Go tips from [Phuong Le](https://twitter.com/func25).
 
 翻译后的站点: [Go语言编程技巧](https://colobu.com/gotips/) (自动生成)
 
@@ -24,7 +24,7 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 - 翻译请保持语句通顺，可以使用AI协助翻译，但是一定要避免生硬和机翻的感觉
 
 > **怎么提交Pull Request? **
-> 
+>
 > 如果大家以前没有提交过 Pull Request,可以探索下。
 > 首先点击项目右上角的 Fork 按钮，将项目 Fork 到自己的仓库。
 > 在github浏览你fork的项目，你会看到一个 "Create pull request" 按钮，点击它
@@ -107,7 +107,7 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 51 | Avoid using init() |  richzw  |
 | 52 | Adjusting GOMAXPROCS for Containerized Env (Kubernetes, Docker, etc.) | baxiang |
 | 53 | Enums start from 1 for categorization and 0 for default cases | baxiang  |
-| 54 | 已认领 |           |
+| 54 | Only define errors (var Err = errors.New) when it's necessary for your client | lylex |
 | 55 | Prevent Struct Unkeyed Literals by Using an Empty Field  | cannian1 |
 | 56 | Simplify interfaces and only ask for what you really need  | cannian1 |
 | 57 | 已认领 |           |
