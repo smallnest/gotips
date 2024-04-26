@@ -87,7 +87,7 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 31 | Loop labels for cleaner breaks and continues | zhubiaook |
 | 32 | 已认领 |           |
 | 33 | Just... Don’t Panic() |  baxiang |
-| 34 |  |           |
+| 34 | Lead with context, end with options, and always close with an error | lylex |
 | 35 | Prefer strconv over fmt for converting to/from string |     jjjjjim      |
 | 36 |  |    |
 | 37 | Using Unexported Empty Struct as Context Key | baxiang |
