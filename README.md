@@ -1,4 +1,4 @@
-# gotips Go语言编程技巧
+# Go语言编程技巧
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-19-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
@@ -10,8 +10,7 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 
 <img src="src/images/wechat.png" width="200px">
 
-
-**翻译进度:**： 68/78 = 87.18%
+**翻译进度:**： 74/78 = 95%
 
 ## 翻译规范
 
