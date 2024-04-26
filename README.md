@@ -88,7 +88,7 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 33 | Just... Don’t Panic() |  baxiang |
 | 34 | Lead with context, end with options, and always close with an error | lylex |
 | 35 | Prefer strconv over fmt for converting to/from string |     jjjjjim      |
-| 36 |  |    |
+| 36 | Naming Unexported Global Variables with an Underscore (_) Prefix |  baxiang  |
 | 37 | Using Unexported Empty Struct as Context Key | baxiang |
 | 38 | Make your errors clear with fmt.Errorf, don't just leave them bare | smallnest |
 | 39 | Avoid defer in loops, or your memory might blow up | devin7788 |
