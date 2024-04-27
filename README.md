@@ -10,7 +10,7 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 
 <img src="src/images/wechat.png" width="200px">
 
-**翻译进度:**： 74/78 = 95%
+**翻译进度:**： 78/78 = 100%
 
 ## 翻译规范
 
@@ -59,7 +59,7 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 4 | Parse an Array into a Slice | smallnest  |
 | 5 | Method Chaining | smallnest  |
 | 6 | Underscore Import | icyfire    |
-| 7 |  作者已删除|            |
+| 7 | 作者已删除|            |
 | 8 | Wrapping Errors | icyfire    |
 | 9 | Compile-Time Interface Verification | icyfire    |
 | 10 | Avoid Naked Parameters  | smallnest  |
@@ -68,10 +68,10 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 13 | Empty slice or, even better, NIL SLICE | icyfire    |
 | 14 | Error messages should not be capitalized or end with punctuation | icyfire    |
 | 15 | When to use Dot (.) Import and Blank (_) Import? |      qcrao      |
-| 16 |  Don't Return -1 or nil to Indicate Error. | kagaya85   |
+| 16 | Don't Return -1 or nil to Indicate Error. | kagaya85   |
 | 17 | Understanding "Return fast, return early" to avoid nested code | icyfire    |
-| 18 |  Define interfaces in the consumer package, not the producer | syjs10        |
-| 19 | 已认领 |            |
+| 18 | Define interfaces in the consumer package, not the producer | syjs10        |
+| 19 | Avoid named results unless necessary for documentation. |     smallnest       |
 | 20 | Pass values, not pointers | smallnest  |
 | 21 | Prefer using a pointer receiver when defining methods |     QingyaFan       |
 | 22 | Simplify function signatures with structs or variadic options | zhubiaook  |
@@ -96,7 +96,7 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 41 | Sort your fields in your struct from largest to smallest | justlorain |
 | 42 | Single Touch Error Handling, Less Noise. | zhubiaook |
 | 43 | Gracefully Shut Down Your Application |    LinPr,smallnest       |
-| 44 |  Intentionally Stop with Must Functions | syjs10    |
+| 44 | Intentionally Stop with Must Functions | syjs10    |
 | 45 | Always Manage Your Goroutine Lifetime. | stonemax |
 | 46 | Avoid using break in switch cases, except when paired with labels | baxiang |
 | 47 | Table-driven tests, subtests, and parallel tests | devin7788 |
@@ -116,43 +116,23 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 61 | Making a Type with Built-In Locking (sync.Mutex embedding) | richzw     |
 | 62 | context.Value is not our friend | hawkinggg  |
 | 63 | Avoid time.Sleep(), it's not context-aware and can't be interrupted | richzw     |
-| 64 |  Make main() clean and testable. |    syjs10        |
+| 64 | Make main() clean and testable. |    syjs10        |
 | 65 | Returning Pointers Made Easy with Generics | miniLCT    |
 | 66 | Simplify Your Error Messages in fmt.Errorf | smallnest  |
 | 67 | How to deal with long function signatures | richzw     |
 | 68 | Use the deadcode tool to find and remove unused functions | richzw     |
 | 69 | Manage multiple goroutines with errgroup | richzw     |
-| 70 |  Implement a context-aware sleep function | hxzhouh    |
+| 70 | Implement a context-aware sleep function | hxzhouh    |
 | 71 | sync.Pool, make it typed-safe with generics | QingyaFan  |
-| 72 |  Case-Insensitive string comparison with strings.EqualFold | syjs10     |
-| 73 |   Implement String() for enum with the stringer tool | syjs10     |
-| 74 |  Make time.Duration clear and easy to understand | richzw     |
+| 72 | Case-Insensitive string comparison with strings.EqualFold | syjs10     |
+| 73 | Implement String() for enum with the stringer tool | syjs10     |
+| 74 | Make time.Duration clear and easy to understand | richzw     |
 | 75 | Optimize multiple calls with singleflight | hxzhouh    |
-| 76 |  Result forwarding in function calls | syjs10     |
-| 77 |  Buffered channels as semaphores to limit goroutine execution | QingyaFan  |
+| 76 | Result forwarding in function calls | syjs10     |
+| 77 | Buffered channels as semaphores to limit goroutine execution | QingyaFan  |
 | 78 | Non-blocking channel send trick | hxzhouh    |
 | 79 |  |            |
 | 80 |  |            |
-| 81 |  |            |
-| 82 |  |            |
-| 83 |  |            |
-| 84 |  |            |
-| 85 |  |            |
-| 86 |  |            |
-| 87 |  |            |
-| 88 |  |            |
-| 89 |  |            |
-| 90 |  |            |
-| 91 |  |            |
-| 92 |  |            |
-| 93 |  |            |
-| 94 |  |            |
-| 95 |  |            |
-| 96 |  |            |
-| 97 |  |            |
-| 98 |  |            |
-| 99 |  |            |
-| 100 |  |            |
 
 ## 生成文档
 
