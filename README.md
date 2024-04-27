@@ -67,7 +67,7 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 12 | Avoid using math/rand, use crypto/rand for keys instead | icyfire    |
 | 13 | Empty slice or, even better, NIL SLICE | icyfire    |
 | 14 | Error messages should not be capitalized or end with punctuation | icyfire    |
-| 15 | 已认领 |            |
+| 15 | When to use Dot (.) Import and Blank (_) Import? |      qcrao      |
 | 16 |  Don't Return -1 or nil to Indicate Error. | kagaya85   |
 | 17 | Understanding "Return fast, return early" to avoid nested code | icyfire    |
 | 18 |  Define interfaces in the consumer package, not the producer | syjs10        |
