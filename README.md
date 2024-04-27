@@ -84,7 +84,7 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 29 | Avoid context.Background(), make your goroutines promisable. | stonemax |
 | 30 | 使用context.WithoutCancel()继续上下文操作 | smallnest |
 | 31 | Loop labels for cleaner breaks and continues | zhubiaook |
-| 32 | Scheduling functions after context cancellation with context.AfterFunc |     LinPr       |
+| 32 | Scheduling functions after context cancellation with context.AfterFunc |     LinPr,smallnest       |
 | 33 | Just... Don’t Panic() |  baxiang |
 | 34 | Lead with context, end with options, and always close with an error | lylex |
 | 35 | Prefer strconv over fmt for converting to/from string |     jjjjjim      |
@@ -95,7 +95,7 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 40 | Handle errors while using defer to prevent silent failures | smallnest |
 | 41 | Sort your fields in your struct from largest to smallest | justlorain |
 | 42 | Single Touch Error Handling, Less Noise. | zhubiaook |
-| 43 | Gracefully Shut Down Your Application |    LinPr       |
+| 43 | Gracefully Shut Down Your Application |    LinPr,smallnest       |
 | 44 |  Intentionally Stop with Must Functions | syjs10    |
 | 45 | Always Manage Your Goroutine Lifetime. | stonemax |
 | 46 | Avoid using break in switch cases, except when paired with labels | baxiang |

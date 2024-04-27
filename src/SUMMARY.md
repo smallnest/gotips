@@ -30,6 +30,7 @@
 - [Tip #29 避免使用 context.Background，使你的协程具备承诺性](./029.md)
 - [Tip #30 使用context.WithoutCancel()继续上下文操作](./030.md)
 - [Tip #31 使用跳转标签让break和continue语句更简洁](./031.md)
+- [Tip #32 使用跳转标签让break和continue语句更简洁](./032.md)
 - [Tip #33 尽量...不要使用panic()](./033.md)
 - [Tip #34 以context开头，以options结尾，并且总是用error来关闭](./034.md)
 - [Tip #35 转换字符串时优先使用 strconv 而非 fmt](./035.md)
