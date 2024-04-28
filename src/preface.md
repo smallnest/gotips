@@ -21,3 +21,5 @@ Phuong Le也将推文整理成到了一个github仓库中[go-practical-tips](htt
 翻译网站：[gotips](https://github.com/smallnest/gotips)。
 
 ![](./images/contributors.png)
+
+verion 1.0.0
