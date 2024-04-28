@@ -10,7 +10,7 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 
 <img src="src/images/wechat.png" width="200px">
 
-**翻译进度:**： 78/78 = 100%
+**翻译进度:**： 79/79 = 100%
 
 ## 翻译规范
 
@@ -131,7 +131,7 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 76 | Result forwarding in function calls | syjs10     |
 | 77 | Buffered channels as semaphores to limit goroutine execution | QingyaFan  |
 | 78 | Non-blocking channel send trick | hxzhouh    |
-| 79 |  |            |
+| 79 | If doing something unusual, comment why |    smallnest        |
 | 80 |  |            |
 
 ## 生成文档
