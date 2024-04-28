@@ -1,6 +1,6 @@
 # Go语言编程技巧
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-21-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-22-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 Go tips from [Phuong Le](https://twitter.com/func25).
 
@@ -184,6 +184,9 @@ http://localhost:3000
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/lylex"><img src="https://avatars.githubusercontent.com/u/4638962?v=4?s=100" width="100px;" alt="lylex"/><br /><sub><b>lylex</b></sub></a><br /><a href="https://github.com/smallnest/gotips/commits?author=lylex" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/LinPr"><img src="https://avatars.githubusercontent.com/u/56944601?v=4?s=100" width="100px;" alt="Lin"/><br /><sub><b>Lin</b></sub></a><br /><a href="https://github.com/smallnest/gotips/commits?author=LinPr" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="http://qcrao.com"><img src="https://avatars.githubusercontent.com/u/7698088?v=4?s=100" width="100px;" alt="qcrao"/><br /><sub><b>qcrao</b></sub></a><br /><a href="https://github.com/smallnest/gotips/commits?author=qcrao" title="Code">💻</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://ryan961.github.io"><img src="https://avatars.githubusercontent.com/u/32825698?v=4?s=100" width="100px;" alt="ryan961"/><br /><sub><b>ryan961</b></sub></a><br /><a href="https://github.com/smallnest/gotips/commits?author=ryan961" title="Code">💻</a></td>
     </tr>
   </tbody>
   <tfoot>
