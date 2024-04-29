@@ -187,6 +187,7 @@ http://localhost:3000
     </tr>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://ryan961.github.io"><img src="https://avatars.githubusercontent.com/u/32825698?v=4?s=100" width="100px;" alt="ryan961"/><br /><sub><b>ryan961</b></sub></a><br /><a href="https://github.com/smallnest/gotips/commits?author=ryan961" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/ekkoful"><img src="https://avatars.githubusercontent.com/u/42363586?v=4?s=100" width="100px;" alt="Ekko"/><br /><sub><b>Ekko</b></sub></a><br /><a href="https://github.com/smallnest/gotips/commits?author=ekkoful" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/wzlove"><img src="https://avatars.githubusercontent.com/u/35476126?v=4?s=100" width="100px;" alt="whoops"/><br /><sub><b>whoops</b></sub></a><br /><a href="https://github.com/smallnest/gotips/commits?author=wzlove" title="Code">💻</a></td>
     </tr>
   </tbody>
