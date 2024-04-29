@@ -82,7 +82,7 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 27 | Filter without any allocation | devin7788 |
 | 28 | Converting multiple if-else statements into switch cases |  zzzpppy |
 | 29 | Avoid context.Background(), make your goroutines promisable. | stonemax |
-| 30 | 使用context.WithoutCancel()继续上下文操作 | smallnest |
+| 30 | Keep contexts going with context.WithoutCancel() | smallnest |
 | 31 | Loop labels for cleaner breaks and continues | zhubiaook |
 | 32 | Scheduling functions after context cancellation with context.AfterFunc |     LinPr,smallnest       |
 | 33 | Just... Don’t Panic() |  baxiang |
