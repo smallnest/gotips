@@ -132,7 +132,7 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 77 | Buffered channels as semaphores to limit goroutine execution | QingyaFan  |
 | 78 | Non-blocking channel send trick | hxzhouh    |
 | 79 | If doing something unusual, comment why |    smallnest        |
-| 80 |  |            |
+| 80 | Declare variables NEAR their usage |   smallnest         |
 
 ## 生成文档
 
