@@ -1,10 +1,12 @@
-# gotips Go 语言编程技巧
+# Go 语言编程技巧
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 
-[![All Contributors](https://img.shields.io/badge/all_contributors-14-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-23-orange.svg?style=flat-square)](#contributors-)
 
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
+
+Go tips from [Phuong Le](https://twitter.com/func25).
 
 Go tips from [Phuong Le](https://twitter.com/func25).
 
@@ -14,7 +16,7 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 
 <img src="src/images/wechat.png" width="200px">
 
-**翻译进度:**： 37/78 = 47.4%
+**翻译进度:**： 79/79 = 100%
 
 ## 翻译规范
 
@@ -53,108 +55,88 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 
 ## 翻译任务认领表格
 
-| tip 序号 | 标题                                                                | 译者       |
-| -------- | ------------------------------------------------------------------- | ---------- |
-| 1        | Measure the execution time of a function in just one line of code.  | smallnest  |
-| 2        | Multistage defer                                                    | smallnest  |
-| 3        | Pre-allocate slices for performance                                 | smallnest  |
-| 4        | Parse an Array into a Slice                                         | smallnest  |
-| 5        | Method Chaining                                                     | smallnest  |
-| 6        | Underscore Import                                                   | icyfire    |
-| 7        | 作者已删除                                                          |            |
-| 8        | Wrapping Errors                                                     | icyfire    |
-| 9        | Compile-Time Interface Verification                                 | icyfire    |
-| 10       | Avoid Naked Parameters                                              | smallnest  |
-| 11       | Numeric separators                                                  | icyfire    |
-| 12       | Avoid using math/rand, use crypto/rand for keys instead             | icyfire    |
-| 13       | Empty slice or, even better, NIL SLICE                              | icyfire    |
-| 14       | Error messages should not be capitalized or end with punctuation    | icyfire    |
-| 15       |                                                                     |            |
-| 16       | Don't Return -1 or nil to Indicate Error.                           | kagaya85   |
-| 17       |                                                                     |            |
-| 18       |                                                                     |            |
-| 19       |                                                                     |            |
-| 20       | Pass values, not pointers                                           | smallnest  |
-| 21       |                                                                     |            |
-| 22       |                                                                     |            |
-| 23       | Skip the 'Get' prefix for getters                                   | HBUzxl     |
-| 24       |                                                                     |            |
-| 25       |                                                                     |            |
-| 26       |                                                                     |            |
-| 27       | Filter without any allocation                                       | devin7788  |
-| 28       | Converting multiple if-else statements into switch cases            | zzzpppy    |
-| 29       |                                                                     |            |
-| 30       | 使用 context.WithoutCancel()继续上下文操作                          | smallnest  |
-| 31       |                                                                     |            |
-| 32       |                                                                     |            |
-| 33       |                                                                     |            |
-| 34       |                                                                     |            |
-| 35       |                                                                     |            |
-| 36       |                                                                     |            |
-| 37       |                                                                     |            |
-| 38       | Make your errors clear with fmt.Errorf, don't just leave them bare  | smallnest  |
-| 39       |                                                                     |            |
-| 40       | Handle errors while using defer to prevent silent failures          | smallnest  |
-| 41       |                                                                     |            |
-| 42       |                                                                     |            |
-| 43       | Gracefully Shut Down Your Application                               | LinPr      |
-| 44       | Intentionally Stop with Must Functions                              | syjs10     |
-| 45       | Always Manage Your Goroutine Lifetime.                              | stonemax   |
-| 46       |                                                                     |            |
-| 47       | Table-driven tests, subtests, and parallel tests                    | devin7788  |
-| 48       |                                                                     |            |
-| 49       |                                                                     |            |
-| 50       | Make Structs Non-comparable.                                        | smallnest  |
-| 51       |                                                                     |            |
-| 52       |                                                                     |            |
-| 53       |                                                                     |            |
-| 54       |                                                                     |            |
-| 55       |                                                                     |            |
-| 56       | Simplify interfaces and only ask for what you really need           | cannian1   |
-| 57       |                                                                     |            |
-| 58       |                                                                     |            |
-| 59       | If a parameter isn't needed, either drop it or ignore it on purpose | TravisRoad |
-| 60       | sync.Once is the best way to do things once                         | smallnest  |
-| 61       | Making a Type with Built-In Locking (sync.Mutex embedding)          | richzw     |
-| 62       |                                                                     |            |
-| 63       | Avoid time.Sleep(), it's not context-aware and can't be interrupted | richzw     |
-| 64       |                                                                     |            |
-| 65       | Returning Pointers Made Easy with Generics                          | miniLCT    |
-| 66       | Simplify Your Error Messages in fmt.Errorf                          | smallnest  |
-| 67       | How to deal with long function signatures                           | richzw     |
-| 68       | Use the deadcode tool to find and remove unused functions           | richzw     |
-| 69       | Manage multiple goroutines with errgroup                            | richzw     |
-| 70       | Implement a context-aware sleep function                            | hxzhouh    |
-| 71       | sync.Pool, make it typed-safe with generics                         | QingyaFan  |
-| 72       | Case-Insensitive string comparison with strings.EqualFold           | syjs10     |
-| 73       | Implement String() for enum with the stringer tool                  | syjs10     |
-| 74       | Make time.Duration clear and easy to understand                     | richzw     |
-| 75       | Optimize multiple calls with singleflight                           | hxzhouh    |
-| 76       | Result forwarding in function calls                                 | syjs10     |
-| 77       | Buffered channels as semaphores to limit goroutine execution        | QingyaFan  |
-| 78       | Non-blocking channel send trick                                     | hxzhouh    |
-| 79       |                                                                     |            |
-| 80       |                                                                     |            |
-| 81       |                                                                     |            |
-| 82       |                                                                     |            |
-| 83       |                                                                     |            |
-| 84       |                                                                     |            |
-| 85       |                                                                     |            |
-| 86       |                                                                     |            |
-| 87       |                                                                     |            |
-| 88       |                                                                     |            |
-| 89       |                                                                     |            |
-| 90       |                                                                     |            |
-| 91       |                                                                     |            |
-| 92       |                                                                     |            |
-| 93       |                                                                     |            |
-| 94       |                                                                     |            |
-| 95       |                                                                     |            |
-| 96       |                                                                     |            |
-| 97       |                                                                     |            |
-| 98       |                                                                     |            |
-| 99       |                                                                     |            |
-| 100      |                                                                     |            |
+| tip 序号 | 标题                                                                                  | 译者            |
+| -------- | ------------------------------------------------------------------------------------- | --------------- |
+| 1        | Measure the execution time of a function in just one line of code.                    | smallnest       |
+| 2        | Multistage defer                                                                      | smallnest       |
+| 3        | Pre-allocate slices for performance                                                   | smallnest       |
+| 4        | Parse an Array into a Slice                                                           | smallnest       |
+| 5        | Method Chaining                                                                       | smallnest       |
+| 6        | Underscore Import                                                                     | icyfire         |
+| 7        | 作者已删除                                                                            |                 |
+| 8        | Wrapping Errors                                                                       | icyfire         |
+| 9        | Compile-Time Interface Verification                                                   | icyfire         |
+| 10       | Avoid Naked Parameters                                                                | smallnest       |
+| 11       | Numeric separators                                                                    | icyfire         |
+| 12       | Avoid using math/rand, use crypto/rand for keys instead                               | icyfire         |
+| 13       | Empty slice or, even better, NIL SLICE                                                | icyfire         |
+| 14       | Error messages should not be capitalized or end with punctuation                      | icyfire         |
+| 15       | When to use Dot (.) Import and Blank (\_) Import?                                     | qcrao           |
+| 16       | Don't Return -1 or nil to Indicate Error.                                             | kagaya85        |
+| 17       | Understanding "Return fast, return early" to avoid nested code                        | icyfire         |
+| 18       | Define interfaces in the consumer package, not the producer                           | syjs10          |
+| 19       | Avoid named results unless necessary for documentation.                               | smallnest       |
+| 20       | Pass values, not pointers                                                             | smallnest       |
+| 21       | Prefer using a pointer receiver when defining methods                                 | QingyaFan       |
+| 22       | Simplify function signatures with structs or variadic options                         | zhubiaook       |
+| 23       | Skip the 'Get' prefix for getters                                                     | HBUzxl          |
+| 24       | Avoid repetition in naming                                                            | smallnest       |
+| 25       | Prefer 'chan struct{}' over 'chan bool' for signaling between goroutines              | justlorain      |
+| 26       | Explicitly ignore values with blank identifier (\_) instead of silently ignoring them | smallnest       |
+| 27       | Filter without any allocation                                                         | devin7788       |
+| 28       | Converting multiple if-else statements into switch cases                              | zzzpppy         |
+| 29       | Avoid context.Background(), make your goroutines promisable.                          | stonemax        |
+| 30       | Keep contexts going with context.WithoutCancel()                                      | smallnest       |
+| 31       | Loop labels for cleaner breaks and continues                                          | zhubiaook       |
+| 32       | Scheduling functions after context cancellation with context.AfterFunc                | LinPr,smallnest |
+| 33       | Just... Don’t Panic()                                                                 | baxiang         |
+| 34       | Lead with context, end with options, and always close with an error                   | lylex           |
+| 35       | Prefer strconv over fmt for converting to/from string                                 | jjjjjim         |
+| 36       | Naming Unexported Global Variables with an Underscore (\_) Prefix                     | baxiang         |
+| 37       | Using Unexported Empty Struct as Context Key                                          | baxiang         |
+| 38       | Make your errors clear with fmt.Errorf, don't just leave them bare                    | smallnest       |
+| 39       | Avoid defer in loops, or your memory might blow up                                    | devin7788       |
+| 40       | Handle errors while using defer to prevent silent failures                            | smallnest       |
+| 41       | Sort your fields in your struct from largest to smallest                              | justlorain      |
+| 42       | Single Touch Error Handling, Less Noise.                                              | zhubiaook       |
+| 43       | Gracefully Shut Down Your Application                                                 | LinPr,smallnest |
+| 44       | Intentionally Stop with Must Functions                                                | syjs10          |
+| 45       | Always Manage Your Goroutine Lifetime.                                                | stonemax        |
+| 46       | Avoid using break in switch cases, except when paired with labels                     | baxiang         |
+| 47       | Table-driven tests, subtests, and parallel tests                                      | devin7788       |
+| 48       | Avoid Global Variables, Especially Mutable Ones.                                      | vcheckzen       |
+| 49       | Give the Caller the Right to Make Decisions                                           | vcheckzen       |
+| 50       | Make Structs Non-comparable.                                                          | smallnest       |
+| 51       | Avoid using init()                                                                    | richzw          |
+| 52       | Adjusting GOMAXPROCS for Containerized Env (Kubernetes, Docker, etc.)                 | baxiang         |
+| 53       | Enums start from 1 for categorization and 0 for default cases                         | baxiang         |
+| 54       | Only define errors (var Err = errors.New) when it's necessary for your client         | lylex           |
+| 55       | Prevent Struct Unkeyed Literals by Using an Empty Field                               | cannian1        |
+| 56       | Simplify interfaces and only ask for what you really need                             | cannian1        |
+| 57       | Golang Tip #57: Flag Enums in Go                                                      | baxiang         |
+| 58       | Keep the mutex close to the data it's protecting                                      | richzw          |
+| 59       | If a parameter isn't needed, either drop it or ignore it on purpose                   | TravisRoad      |
+| 60       | sync.Once is the best way to do things once                                           | smallnest       |
+| 61       | Making a Type with Built-In Locking (sync.Mutex embedding)                            | richzw          |
+| 62       | context.Value is not our friend                                                       | hawkinggg       |
+| 63       | Avoid time.Sleep(), it's not context-aware and can't be interrupted                   | richzw          |
+| 64       | Make main() clean and testable.                                                       | syjs10          |
+| 65       | Returning Pointers Made Easy with Generics                                            | miniLCT         |
+| 66       | Simplify Your Error Messages in fmt.Errorf                                            | smallnest       |
+| 67       | How to deal with long function signatures                                             | richzw          |
+| 68       | Use the deadcode tool to find and remove unused functions                             | richzw          |
+| 69       | Manage multiple goroutines with errgroup                                              | richzw          |
+| 70       | Implement a context-aware sleep function                                              | hxzhouh         |
+| 71       | sync.Pool, make it typed-safe with generics                                           | QingyaFan       |
+| 72       | Case-Insensitive string comparison with strings.EqualFold                             | syjs10          |
+| 73       | Implement String() for enum with the stringer tool                                    | syjs10          |
+| 74       | Make time.Duration clear and easy to understand                                       | richzw          |
+| 75       | Optimize multiple calls with singleflight                                             | hxzhouh         |
+| 76       | Result forwarding in function calls                                                   | syjs10          |
+| 77       | Buffered channels as semaphores to limit goroutine execution                          | QingyaFan       |
+| 78       | Non-blocking channel send trick                                                       | hxzhouh         |
+| 79       | If doing something unusual, comment why                                               | smallnest       |
+| 80       | Declare variables NEAR their usage                                                    | smallnest       |
 
 ## 生成文档
 
@@ -194,6 +176,20 @@ http://localhost:3000
       <td align="center" valign="top" width="14.28%"><a href="http://blog.kagaya.fun"><img src="https://avatars.githubusercontent.com/u/28755005?v=4?s=100" width="100px;" alt="Kagaya"/><br /><sub><b>Kagaya</b></sub></a><br /><a href="https://github.com/smallnest/gotips/commits?author=kagaya85" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/stonemax"><img src="https://avatars.githubusercontent.com/u/4516172?v=4?s=100" width="100px;" alt="Zhang Jinlong"/><br /><sub><b>Zhang Jinlong</b></sub></a><br /><a href="https://github.com/smallnest/gotips/commits?author=stonemax" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/HBUzxl"><img src="https://avatars.githubusercontent.com/u/86550622?v=4?s=100" width="100px;" alt="HBUzxl"/><br /><sub><b>HBUzxl</b></sub></a><br /><a href="https://github.com/smallnest/gotips/commits?author=HBUzxl" title="Code">💻</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="http://yuque.com/baxiang"><img src="https://avatars.githubusercontent.com/u/2994323?v=4?s=100" width="100px;" alt="羊羽"/><br /><sub><b>羊羽</b></sub></a><br /><a href="https://github.com/smallnest/gotips/commits?author=baxiang" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/zhubiaook"><img src="https://avatars.githubusercontent.com/u/30363122?v=4?s=100" width="100px;" alt="zhubiaook"/><br /><sub><b>zhubiaook</b></sub></a><br /><a href="https://github.com/smallnest/gotips/commits?author=zhubiaook" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://logi.im"><img src="https://avatars.githubusercontent.com/u/18008498?v=4?s=100" width="100px;" alt="LOGI"/><br /><sub><b>LOGI</b></sub></a><br /><a href="https://github.com/smallnest/gotips/commits?author=vcheckzen" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/justlorain"><img src="https://avatars.githubusercontent.com/u/87760338?v=4?s=100" width="100px;" alt="Lorain"/><br /><sub><b>Lorain</b></sub></a><br /><a href="https://github.com/smallnest/gotips/commits?author=justlorain" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/lylex"><img src="https://avatars.githubusercontent.com/u/4638962?v=4?s=100" width="100px;" alt="lylex"/><br /><sub><b>lylex</b></sub></a><br /><a href="https://github.com/smallnest/gotips/commits?author=lylex" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/LinPr"><img src="https://avatars.githubusercontent.com/u/56944601?v=4?s=100" width="100px;" alt="Lin"/><br /><sub><b>Lin</b></sub></a><br /><a href="https://github.com/smallnest/gotips/commits?author=LinPr" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="http://qcrao.com"><img src="https://avatars.githubusercontent.com/u/7698088?v=4?s=100" width="100px;" alt="qcrao"/><br /><sub><b>qcrao</b></sub></a><br /><a href="https://github.com/smallnest/gotips/commits?author=qcrao" title="Code">💻</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://ryan961.github.io"><img src="https://avatars.githubusercontent.com/u/32825698?v=4?s=100" width="100px;" alt="ryan961"/><br /><sub><b>ryan961</b></sub></a><br /><a href="https://github.com/smallnest/gotips/commits?author=ryan961" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/ekkoful"><img src="https://avatars.githubusercontent.com/u/42363586?v=4?s=100" width="100px;" alt="Ekko"/><br /><sub><b>Ekko</b></sub></a><br /><a href="https://github.com/smallnest/gotips/commits?author=ekkoful" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/wzlove"><img src="https://avatars.githubusercontent.com/u/35476126?v=4?s=100" width="100px;" alt="whoops"/><br /><sub><b>whoops</b></sub></a><br /><a href="https://github.com/smallnest/gotips/commits?author=wzlove" title="Code">💻</a></td>
     </tr>
   </tbody>
   <tfoot>
