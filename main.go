@@ -12,6 +12,7 @@ import (
 	"time"
 
 	"golang.org/x/sync/errgroup"
+	"golang.org/x/sync/singleflight"
 )
 
 var (
@@ -35,7 +36,9 @@ func GetConfig() *config {
 func main() {
 	// gracefullyShutdown()
 	// cancelableSleep()
-	reuseBullet()
+	// reuseBullet()
+	// stringer()
+	callSingleflightFunc()
 }
 
 func gracefullyShutdown() {
@@ -232,4 +235,74 @@ func reuseBullet() {
 	uPool.internal.Put(&User{}) // clean up the user object before put back to pool
 	u2 := uPool.internal.Get().(*User)
 	fmt.Printf("user: %+v\n", u2)
+}
+
+//go:generate stringer -type=HeroType -trimprefix=Hero -linecomment
+type HeroType int
+
+const (
+	HeroHunter HeroType = iota + 1
+	HeroDarwf           // small
+	HeroKnight
+)
+
+// func (t HeroType) String() string {
+// 	return fmt.Sprintf("HeroType[%d]", t)
+// }
+
+func stringer() {
+	fmt.Println(time.Second)
+	// fmt.Println(HeroHunter.String())
+	fmt.Println(HeroHunter)
+	fmt.Println(HeroDarwf)
+	fmt.Println(HeroKnight)
+	fmt.Printf("Hero: %s\n", HeroHunter)
+	fmt.Printf("Hero: %s\n", HeroDarwf)
+}
+
+// const warmUpSeconds int = 10 // don't use it
+const warmUpSeconds = 10
+
+// a cleaner representation
+const refreshDuration = time.Hour * 24 * 7
+
+func timeDuration() {
+	time.Sleep(warmUpSeconds * time.Second)
+}
+
+func FetchExpensiveData() (int64, error) {
+	fmt.Println("FetchExpensiveData called", time.Now())
+	time.Sleep(1 * time.Second)
+	return time.Now().Unix() / 1, nil
+}
+
+var group singleflight.Group
+
+func doFuncWithSingleflight(key string) {
+	// var group singleflight.Group
+	v, err, shared := group.Do(key, func() (interface{}, error) {
+		return FetchExpensiveData()
+	})
+	if err != nil {
+		fmt.Println("do singleflight function call failed: ", err)
+		return
+	}
+	if shared {
+		fmt.Println("do singleflight function call is shared")
+	}
+	fmt.Println("do singleflight function call success: ", v)
+}
+
+func callSingleflightFunc() {
+	key := "user:123"
+	go doFuncWithSingleflight(key)
+	go doFuncWithSingleflight(key)
+	go doFuncWithSingleflight(key)
+
+	time.Sleep(2 * time.Second)
+	go doFuncWithSingleflight(key)
+	go doFuncWithSingleflight(key)
+	go doFuncWithSingleflight(key)
+
+	time.Sleep(2 * time.Second)
 }
