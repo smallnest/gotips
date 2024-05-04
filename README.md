@@ -10,7 +10,6 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 
 <img src="src/images/wechat.png" width="200px">
 
-**翻译进度:**： 79/79 = 100%
 
 ## 翻译规范
 
@@ -133,6 +132,7 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 78 | Non-blocking channel send trick | hxzhouh    |
 | 79 | If doing something unusual, comment why |    smallnest        |
 | 80 | Declare variables NEAR their usage |   smallnest         |
+| 81 | To check if a string is empty, prefer s != "" over len(s) == 0 |   smallnest         |
 
 ## 生成文档
 
@@ -191,15 +191,6 @@ http://localhost:3000
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/wzlove"><img src="https://avatars.githubusercontent.com/u/35476126?v=4?s=100" width="100px;" alt="whoops"/><br /><sub><b>whoops</b></sub></a><br /><a href="https://github.com/smallnest/gotips/commits?author=wzlove" title="Code">💻</a></td>
     </tr>
   </tbody>
-  <tfoot>
-    <tr>
-      <td align="center" size="13px" colspan="7">
-        <img src="https://raw.githubusercontent.com/all-contributors/all-contributors-cli/1b8533af435da9854653492b1327a23a4dbd0a10/assets/logo-small.svg">
-          <a href="https://all-contributors.js.org/docs/en/bot/usage">Add your contributions</a>
-        </img>
-      </td>
-    </tr>
-  </tfoot>
 </table>
 
 <!-- markdownlint-restore -->
