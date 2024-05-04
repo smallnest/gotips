@@ -133,6 +133,7 @@ Go tips from [Phuong Le](https://twitter.com/func25).
 | 79 | If doing something unusual, comment why |    smallnest        |
 | 80 | Declare variables NEAR their usage |   smallnest         |
 | 81 | To check if a string is empty, prefer s != "" over len(s) == 0 |   smallnest         |
+| 82 | Enhance Debug Output with %+v and %q Instead of %v and %s |   smallnest         |
 
 ## 生成文档
 
